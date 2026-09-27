@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@appid@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+<name>Simon-Orologio</name>
+<summary>Keep track of time</summary>
+<description>
+    <p>
+      A simple and elegant clock application.
+      It includes world clocks, alarms, a stopwatch, and timers.
+    </p>
+    <ul>
+      <li>Show the time in different cities around the world</li>
+      <li>Set alarms to wake you up</li>
+      <li>Measure elapsed time with an accurate stopwatch</li>
+      <li>Set timers to properly cook your food</li>
+    </ul>
+</description>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <recommends>
+    <internet>always</internet>
+  </recommends>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://static.gnome.org/appdata/gnome-47/clocks/world.png</image>
+      <caption>Initial screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://static.gnome.org/appdata/gnome-47/clocks/alarm.png</image>
+      <caption>Alarms screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://static.gnome.org/appdata/gnome-47/clocks/stopwatch.png</image>
+      <caption>Stopwatch screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://static.gnome.org/appdata/gnome-47/clocks/timer.png</image>
+      <caption>Timer screen</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.0.0" date="2026-09-26">
+      <description>
+        <p>Prima versione di Simon-Orologio, basata su GNOME Clocks 51.0.</p>
+        <ul>
+          <li>Ribrandizzazione completa: nome, icona e finestra Informazioni</li>
+          <li>Nuova scheda Orologio con ora locale in grande e data completa</li>
+          <li>Fusi orari con alba e tramonto</li>
+          <li>Sveglie con suoni personalizzabili e ripetizione settimanale</li>
+          <li>Cronometro con giri e millisecondi</li>
+          <li>Timer con avvio rapido</li>
+          <li>Interfaccia aggiornata per GTK 4.14 e libadwaita 1.5</li>
+          <li>Traduzione italiana inclusa</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <branding>
+    <color type="primary" scheme_preference="light">#2e8b57</color>
+    <color type="primary" scheme_preference="dark">#66cdaa</color>
+  </branding>
+  <url type="homepage">https://github.com/simonepagliari44-cyber/Simon-Orologio</url>
+  <url type="bugtracker">https://github.com/simonepagliari44-cyber/Simon-Orologio/issues</url>
+  <url type="help">https://github.com/simonepagliari44-cyber/Simon-Orologio#readme</url>
+  <launchable type="desktop-id">@appid@.desktop</launchable>
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name>Simone</developer_name>
+  <developer id="com.simonecompany">
+    <name>Simone</name>
+  </developer>
+  <project_group>Simon Company</project_group>
+  <translation type="gettext">gnome-clocks</translation>
+  <content_rating type="oars-1.0" />
+</component>

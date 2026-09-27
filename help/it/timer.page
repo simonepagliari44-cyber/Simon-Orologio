@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="timer">
+
+  <info>
+    <link type="guide" xref="index#timer"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Usare un conto alla rovescia per essere avvisato quando è trascorso un periodo di tempo.</desc>
+  </info>
+
+  <title>Imposta il timer</title>
+
+  <p>Imposta la durata del conto alla rovescia. Verrai avvisato quando il conto
+  alla rovescia sarà terminato.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Timer</gui>.</p>
+    </item>
+    <item>
+      <p>Imposta la durata del conto alla rovescia.</p>
+    </item>
+    <item>
+      <p>Premi <gui style="button">Avvia</gui> per iniziare il conto alla
+      rovescia.</p>
+    </item>
+  </steps>
+
+  <p>Sarai avvisato quando il conto alla rovescia arriva a zero.</p>
+
+  <note style="tip">
+    <p>Una volta avviato, puoi premere il pulsante <gui style="button">Pausa</gui>
+    per sospendere il timer. Per reimpostarlo, premi il pulsante
+    <gui style="button">Azzera</gui>.</p>
+  </note>
+
+</page>

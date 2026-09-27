@@ -1,0 +1,62 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="world-add">
+
+  <info>
+    <link type="guide" xref="index#world-clock"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Aggiungere un orologio per una nuova città all'elenco dei fusi orari.</desc>
+  </info>
+
+  <title>Aggiungi un nuovo orologio di città</title>
+
+  <p>Aggiungi una città ai tuoi fusi orari per vedere l'ora del giorno o della
+  notte in quella città. Potrai inoltre <link xref="world-check">controllare gli
+  orari di alba e tramonto</link> per ciascuna città aggiunta.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Fuso orario</gui>.</p>
+    </item>
+    <item>
+      <p>Premi il pulsante <gui style="button">+</gui> oppure
+      <keyseq><key>Ctrl</key><key>N</key></keyseq> per aggiungere una nuova città.</p>
+    </item>
+    <item>
+      <p>Inizia a digitare il nome della città nella ricerca.</p>
+    </item>
+    <item>
+      <p>Seleziona dall'elenco la città corretta o la località più vicina a te.</p>
+    </item>
+    <item>
+      <p>Premi <gui style="button">Aggiungi</gui> per completare l'aggiunta.</p>
+    </item>
+  </steps>
+
+  <p>Se non vedi la tua città nell'elenco, probabilmente non è disponibile in
+  questo momento. Prova ad aggiungere la città più vicina o la capitale del tuo
+  paese.</p>
+
+  <note style="info">
+    <p>L'orologio della tua posizione attuale viene aggiunto automaticamente ai
+    fusi orari quando sei connesso a Internet. Non viene mostrato se sei
+    disconnesso e si aggiorna da solo se porti il computer in un'altra città.</p>
+  </note>
+
+</page>

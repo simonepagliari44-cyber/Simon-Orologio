@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/simonecompany/simonorologio">
+    <file alias="style.css">css/gnome-clocks.css</file>
+    <file alias="style-dark.css">css/gnome-clocks.dark.css</file>
+    <file alias="style-hc.css">css/gnome-clocks.highcontrast.css</file>
+    <file preprocess="xml-stripblanks">ui/shortcuts-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/alarm-day-picker-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/alarm-face.ui</file>
+    <file preprocess="xml-stripblanks">ui/alarm-ringing-panel.ui</file>
+    <file preprocess="xml-stripblanks">ui/alarm-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/alarm-setup-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/header-bar.ui</file>
+    <file preprocess="xml-stripblanks">ui/sound-chooser.ui</file>
+    <file preprocess="xml-stripblanks">ui/sound-chooser-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/stopwatch-face.ui</file>
+    <file preprocess="xml-stripblanks">ui/stopwatch-laps-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/timer-face.ui</file>
+    <file preprocess="xml-stripblanks">ui/timer-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/timer-setup-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/timer-setup.ui</file>
+    <file preprocess="xml-stripblanks">ui/window.ui</file>
+    <file preprocess="xml-stripblanks">ui/local-clock-face.ui</file>
+    <file preprocess="xml-stripblanks">ui/world-face.ui</file>
+    <file preprocess="xml-stripblanks">ui/world-location-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/world-location-dialog-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/world-row.ui</file>
+    <file preprocess="xml-stripblanks">ui/world-standalone.ui</file>
+    <file>data/sounds/alarms/beep-beep.oga</file>
+    <file>sounds/complete.oga</file>
+    <file>sounds/silent</file>
+  </gresource>
+  <gresource prefix="/com/simonecompany/simonorologio/icons/16x16/actions/">
+    <!-- The symbolic icons correctly centered, used in empty views -->
+    <file preprocess="xml-stripblanks" alias="alarm-centered-symbolic.svg">gtk/icons/alarm-centered-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="globe-centered-symbolic.svg">gtk/icons/globe-centered-symbolic.svg</file>
+
+    <file preprocess="xml-stripblanks" alias="alarm-symbolic.svg">gtk/icons/alarm-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="bell-outline-none-symbolic.svg">gtk/icons/bell-outline-none-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="globe-symbolic.svg">gtk/icons/globe-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="stopwatch-symbolic.svg">gtk/icons/stopwatch-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="timer-symbolic.svg">gtk/icons/timer-symbolic.svg</file>
+  </gresource>
+</gresources>

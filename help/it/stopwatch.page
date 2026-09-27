@@ -1,0 +1,65 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="stopwatch">
+
+  <info>
+    <link type="guide" xref="index#stopwatch"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Usare il cronometro per misurare il tempo necessario a completare un'attività.</desc>
+  </info>
+
+  <title>Misura i tuoi tempi migliori</title>
+
+  <p>Usa il cronometro per misurare il tempo necessario a completare le diverse
+  fasi di un'attività, tenendo traccia anche del tempo totale impiegato per
+  portarla a termine. È spesso usato dagli atleti per misurare il tempo impiegato
+  per ogni giro e per coprire l'intera distanza. Cronometrando ogni giro è
+  possibile capire se la velocità cambia da un giro all'altro.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Cronometro</gui>.</p>
+    </item>
+    <item>
+      <p>Premi <gui style="button">Avvia</gui> per avviare il cronometro.</p>
+    </item>
+    <item>
+      <p>Dopo aver completato una fase dell'attività:</p>
+      <list>
+        <item>
+          <p>Premi <gui style="button">Giro</gui> per registrare la fine della
+          prima fase e per iniziare a cronometrare la fase successiva.</p>
+        </item>
+        <item>
+          <p>Premi <gui style="button">Pausa</gui> per fermare il cronometro e
+          <gui style="button">Riprendi</gui> quando vuoi continuare.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <p>Puoi usare il pulsante <gui style="button">Azzera</gui> per reimpostare il
+  cronometro quando è in pausa.</p>
+
+  <note style="info">
+    <p>I tempi dei giri e il tempo totale vengono persi quando reimposti il
+    cronometro o riavvii <app>Simon-Orologio</app>.</p>
+  </note>
+
+</page>

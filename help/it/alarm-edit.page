@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="alarm-edit">
+
+  <info>
+    <link type="guide" xref="index#alarm-clock"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Modificare una sveglia o disattivarla temporaneamente.</desc>
+  </info>
+
+  <title>Modifica una sveglia</title>
+
+  <p>Modifica la sveglia per cambiarne l'orario o per rinominarla.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Sveglie</gui>.</p>
+    </item>
+    <item>
+      <p>Trova la sveglia da modificare e premi <gui style="button">Modifica</gui>.</p>
+    </item>
+    <item>
+      <p>Aggiorna la sveglia e premi <gui style="button">Fatto</gui> per
+      completare la modifica.</p>
+    </item>
+  </steps>
+
+  <p>Puoi anche disattivare temporaneamente una sveglia.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Sveglie</gui>.</p>
+    </item>
+    <item>
+      <p>Trova la sveglia da disattivare o attivare e sposta l'interruttore.</p>
+    </item>
+    <item>
+      <p>Quando la sveglia è disattivata non suona, ma può essere riattivata in
+      seguito.</p>
+    </item>
+  </steps>
+
+</page>

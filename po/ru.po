@@ -1,0 +1,957 @@
+# Russian translation for gnome-clocks.
+# Copyright (C) 2012, 2013 gnome-clocks's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-clocks package.
+#
+# Yuri Kozlov <yuray@komyakino.ru>, 2012.
+# Evgeny Bobkin <evgen.ibqn@gmail.com, 2013.
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012, 2013.
+# Stas Solovey <whats_up@tut.by>, 2012-2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-clocks master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-clocks/issues/\n"
+"POT-Creation-Date: 2026-01-04 15:46+0000\n"
+"PO-Revision-Date: 2026-01-05 17:35+0300\n"
+"Last-Translator: Artur So <arturios2005@mail.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/org.gnome.clocks.desktop.in.in:2 data/org.gnome.clocks.desktop.in.in:3
+#: data/org.gnome.clocks.metainfo.xml.in.in:6 data/ui/window.ui:27
+#: src/main.vala:26 src/window.vala:252 src/window.vala:304
+#: src/world-standalone.vala:24
+msgid "Clocks"
+msgstr "Часы"
+
+#: data/org.gnome.clocks.desktop.in.in:4
+msgid "Clocks for world times, plus alarms, stopwatch and a timer"
+msgstr "Часы мирового времени, а также будильник, секундомер и таймер"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.clocks.desktop.in.in:6
+msgid "time;timer;alarm;world clock;stopwatch;time zone;"
+msgstr "время;таймер;будильник;мировое время;часовой пояс;"
+
+#: data/org.gnome.clocks.desktop.in.in:16
+msgid "Allows world clocks to be displayed for your time zone."
+msgstr "Позволяет отображать мировые часы для вашего часового пояса."
+
+#: data/org.gnome.clocks.gschema.xml.in:5
+msgid "Configured world clocks"
+msgstr "Настроенные мировые часы"
+
+#: data/org.gnome.clocks.gschema.xml.in:6
+msgid "List of world clocks to show."
+msgstr "Список мировых часов."
+
+#: data/org.gnome.clocks.gschema.xml.in:12
+msgid "Configured alarms"
+msgstr "Настроенные будильники"
+
+#: data/org.gnome.clocks.gschema.xml.in:13
+msgid "List of alarms set."
+msgstr "Список настроенных будильников."
+
+#: data/org.gnome.clocks.gschema.xml.in:19
+msgid "Configured Timers"
+msgstr "Настроенные таймеры"
+
+#: data/org.gnome.clocks.gschema.xml.in:20
+msgid "List of timers set."
+msgstr "Список настроенных таймеров."
+
+#: data/org.gnome.clocks.gschema.xml.in:26
+msgid "Geolocation support"
+msgstr "Поддержка геопозиционирования"
+
+#: data/org.gnome.clocks.gschema.xml.in:27
+msgid "Turn geolocation support on and off."
+msgstr "Включает и выключает поддержку геопозиционирования."
+
+#: data/org.gnome.clocks.gschema.xml.in:44
+msgid "Window maximized"
+msgstr "Окно развёрнуто"
+
+#: data/org.gnome.clocks.gschema.xml.in:45
+msgid "Whether the window is maximized."
+msgstr "Развернуто ли окно."
+
+#: data/org.gnome.clocks.gschema.xml.in:51
+msgid "Window width and height"
+msgstr "Ширина и высота окна"
+
+#: data/org.gnome.clocks.gschema.xml.in:52
+msgid "Width and height of the window."
+msgstr "Ширина и высота окна."
+
+#: data/org.gnome.clocks.gschema.xml.in:58
+msgid "Panel state"
+msgstr "Состояние панели"
+
+#: data/org.gnome.clocks.gschema.xml.in:59
+msgid "Current clock panel."
+msgstr "Текущая панель часов."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:7
+msgid "Keep track of time"
+msgstr "Следите за временем"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:9
+msgid ""
+"A simple and elegant clock application. It includes world clocks, alarms, a "
+"stopwatch, and timers."
+msgstr ""
+"Простое и элегантное приложение-часы. Включает в себя мировые часы, "
+"будильники, секундомер и таймеры."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:14
+msgid "Show the time in different cities around the world"
+msgstr "Показывать время в различных городах мира"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:15
+msgid "Set alarms to wake you up"
+msgstr "Устанавливать будильники для подъёма"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:16
+msgid "Measure elapsed time with an accurate stopwatch"
+msgstr "Замерять время с помощью точного секундомера"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:17
+msgid "Set timers to properly cook your food"
+msgstr "Устанавливать таймеры для приготовления еды"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:34
+msgid "Initial screen"
+msgstr "Начальное экран"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:38
+msgid "Alarms screen"
+msgstr "Экран будильника"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:42
+msgid "Stopwatch screen"
+msgstr "Экран секундомера"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:46
+msgid "Timer screen"
+msgstr "Экран таймера"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.clocks.metainfo.xml.in.in:216 src/window.vala:254
+msgid "The GNOME Project"
+msgstr "Проект GNOME"
+
+#: data/ui/alarm-day-picker-row.ui:21
+msgid "Repeat"
+msgstr "Повторять"
+
+#: data/ui/alarm-face.ui:14
+msgid "Add A_larm…"
+msgstr "Добавить _будильник…"
+
+#: data/ui/alarm-ringing-panel.ui:26
+msgid "_Stop"
+msgstr "_Остановить"
+
+#: data/ui/alarm-ringing-panel.ui:42
+msgid "S_nooze"
+msgstr "О_тложить"
+
+#: data/ui/alarm-row.ui:47
+msgid "Repeats"
+msgstr "Повторяется"
+
+#: data/ui/alarm-row.ui:67
+msgid "Enable Alarm"
+msgstr "Включить будильник"
+
+#: data/ui/alarm-row.ui:72 data/ui/timer-row.ui:152 data/ui/world-row.ui:19
+msgid "Delete"
+msgstr "Удалить"
+
+#. Translators: Tooltip for the + button
+#: data/ui/alarm-setup-dialog.ui:6 src/alarm-face.vala:28
+#: src/alarm-setup-dialog.vala:128
+msgid "New Alarm"
+msgstr "Создать будильник"
+
+#: data/ui/alarm-setup-dialog.ui:22 data/ui/world-location-dialog.ui:16
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: data/ui/alarm-setup-dialog.ui:29 data/ui/world-location-dialog.ui:24
+msgid "_Add"
+msgstr "_Добавить"
+
+#: data/ui/alarm-setup-dialog.ui:44
+msgid "You already have an alarm for this time"
+msgstr "На это время уже назначен будильник"
+
+#: data/ui/alarm-setup-dialog.ui:65 data/ui/timer-setup.ui:205
+msgid "Hours"
+msgstr "Часы"
+
+#: data/ui/alarm-setup-dialog.ui:90 data/ui/timer-setup.ui:238
+msgid "Minutes"
+msgstr "Минуты"
+
+#: data/ui/alarm-setup-dialog.ui:124
+msgid "Name"
+msgstr "Название"
+
+#: data/ui/alarm-setup-dialog.ui:135 data/ui/alarm-setup-dialog.ui:195
+msgid "Alarm Sound"
+msgstr "Звук будильника"
+
+#: data/ui/alarm-setup-dialog.ui:160
+msgid "Ring Duration"
+msgstr "Длительность звонка"
+
+#: data/ui/alarm-setup-dialog.ui:166
+msgid "Snooze Duration"
+msgstr "Длительность отсрочки"
+
+#: data/ui/alarm-setup-dialog.ui:175
+msgid "R_emove Alarm"
+msgstr "_Удалить будильник"
+
+#: data/ui/header-bar.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "_Комбинации клавиш"
+
+#: data/ui/header-bar.ui:10
+msgid "_Help"
+msgstr "_Справка"
+
+#: data/ui/header-bar.ui:14
+msgid "_About Clocks"
+msgstr "_О приложении"
+
+#: data/ui/header-bar.ui:56
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: data/ui/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общие"
+
+#: data/ui/shortcuts-dialog.ui:10
+msgctxt "shortcut window"
+msgid "Show Help"
+msgstr "Показать справку"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Открыть меню"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Комбинации клавиш"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Закрыть"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Go to the Next Section"
+msgstr "Перейти к следующему разделу"
+
+#: data/ui/shortcuts-dialog.ui:40
+msgctxt "shortcut window"
+msgid "Go to the Previous Section"
+msgstr "Перейти к предыдущему разделу"
+
+#: data/ui/shortcuts-dialog.ui:46
+msgctxt "shortcut window"
+msgid "Go to the World Section"
+msgstr "Перейти к разделу Мирового времени"
+
+#: data/ui/shortcuts-dialog.ui:52
+msgctxt "shortcut window"
+msgid "Go to the Alarms Section"
+msgstr "Перейти к разделу Будильников"
+
+#: data/ui/shortcuts-dialog.ui:58
+msgctxt "shortcut window"
+msgid "Go to the Stopwatch Section"
+msgstr "Перейти к разделу Секундомера"
+
+#: data/ui/shortcuts-dialog.ui:64
+msgctxt "shortcut window"
+msgid "Go to the Timer Section"
+msgstr "Перейти к разделу Таймера"
+
+#: data/ui/shortcuts-dialog.ui:71
+msgctxt "shortcut window"
+msgid "World Clocks"
+msgstr "Мировые часы"
+
+#: data/ui/shortcuts-dialog.ui:75
+msgctxt "shortcut window"
+msgid "Add a World Clock"
+msgstr "Добавить мировые часы"
+
+#: data/ui/shortcuts-dialog.ui:82
+msgctxt "shortcut window"
+msgid "Alarm"
+msgstr "Будильник"
+
+#: data/ui/shortcuts-dialog.ui:86
+msgctxt "shortcut window"
+msgid "Add an Alarm"
+msgstr "Добавить будильник"
+
+#: data/ui/shortcuts-dialog.ui:93
+msgctxt "shortcut window"
+msgid "Stopwatch"
+msgstr "Секундомер"
+
+#: data/ui/shortcuts-dialog.ui:97
+msgctxt "shortcut window"
+msgid "Pause All"
+msgstr "Приостановить все"
+
+#: data/ui/shortcuts-dialog.ui:104
+msgctxt "shortcut window"
+msgid "Timer"
+msgstr "Таймер"
+
+#: data/ui/shortcuts-dialog.ui:108
+msgctxt "shortcut window"
+msgid "Reset"
+msgstr "Сбросить"
+
+#: data/ui/shortcuts-dialog.ui:114
+msgctxt "shortcut window"
+msgid "New Timer"
+msgstr "Новый таймер"
+
+#. Translators: An alarm or timer empty sound name
+#: data/ui/sound-chooser.ui:19
+msgid "Silent"
+msgstr "Беззвучный"
+
+#: data/ui/stopwatch-face.ui:131 data/ui/timer-face.ui:26
+#: src/stopwatch-face.vala:202
+msgid "St_art"
+msgstr "Зап_устить"
+
+#: data/ui/stopwatch-face.ui:145 src/stopwatch-face.vala:185
+msgid "_Clear"
+msgstr "_Очистить"
+
+#: data/ui/stopwatch-laps-row.ui:14
+msgid "Time"
+msgstr "Время"
+
+#: data/ui/stopwatch-laps-row.ui:25
+msgid "Difference"
+msgstr "Разница"
+
+#: data/ui/timer-row.ui:32
+msgid "Title…"
+msgstr "Заголовок…"
+
+#: data/ui/timer-row.ui:74
+msgid "Pause"
+msgstr "Приостановить"
+
+#: data/ui/timer-row.ui:92 data/ui/timer-setup-dialog.ui:26
+msgid "Start"
+msgstr "Запустить"
+
+#: data/ui/timer-row.ui:119
+msgid "Reset"
+msgstr "Сбросить"
+
+#. Translators: Tooltip for the + button
+#: data/ui/timer-setup-dialog.ui:4 src/timer-face.vala:39
+msgid "New Timer"
+msgstr "Новый таймер"
+
+#: data/ui/timer-setup.ui:35
+msgid "Quick Start"
+msgstr "Быстрый запуск"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:55
+msgid "One minute"
+msgstr "1 минута"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:60
+msgid "1 m"
+msgstr "1 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:70
+msgid "Two minutes"
+msgstr "2 минуты"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:75
+msgid "2 m"
+msgstr "2 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:85
+msgid "Three minutes"
+msgstr "3 минуты"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:90
+msgid "3 m"
+msgstr "3 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:100
+msgid "Five minutes"
+msgstr "5 минут"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:105
+msgid "5 m"
+msgstr "5 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:115
+msgid "Thirty minutes"
+msgstr "30 минут"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:120
+msgid "30 m"
+msgstr "30 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:130
+msgid "Fifteen minutes"
+msgstr "15 минут"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:135
+msgid "15 m"
+msgstr "15 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:145
+msgid "Fortyfive minutes"
+msgstr "45 минут"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:150
+msgid "45 m"
+msgstr "45 мин"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:160
+msgid "One hour"
+msgstr "1 час"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:165
+msgid "1 h"
+msgstr "1 час"
+
+#: data/ui/timer-setup.ui:174
+msgid "Set Timer"
+msgstr "Установить таймер"
+
+#: data/ui/timer-setup.ui:200 data/ui/timer-setup.ui:233
+#: data/ui/timer-setup.ui:267
+msgid "0"
+msgstr "0"
+
+#: data/ui/timer-setup.ui:272
+msgid "Seconds"
+msgstr "Секунды"
+
+#: data/ui/timer-setup.ui:304
+msgid "Title"
+msgstr "Заголовок"
+
+#: data/ui/window.ui:44
+msgid "_World"
+msgstr "_Мировое время"
+
+#: data/ui/window.ui:55
+msgid "Ala_rms"
+msgstr "_Будильники"
+
+#: data/ui/window.ui:66
+msgid "_Stopwatch"
+msgstr "_Секундомер"
+
+#: data/ui/window.ui:77
+msgid "_Timer"
+msgstr "_Таймер"
+
+#: data/ui/window.ui:98
+msgid "Clock"
+msgstr "Часы"
+
+#: data/ui/window.ui:106
+msgid "Alarm Ringing"
+msgstr "Сигнал будильника"
+
+#: data/ui/world-face.ui:14
+msgid "_Add World Clock…"
+msgstr "_Добавить мировые часы…"
+
+#: data/ui/world-location-dialog.ui:4
+msgid "Add World Clock"
+msgstr "Добавить мировые часы"
+
+#: data/ui/world-location-dialog.ui:43
+msgid "Search cities"
+msgstr "Поиск городов"
+
+#: data/ui/world-location-dialog.ui:54
+msgid "Perform a Search"
+msgstr "Выполнить поиск"
+
+#: data/ui/world-location-dialog.ui:55
+msgid "The search results will appear here"
+msgstr "Здесь появятся результаты поиска"
+
+#: data/ui/world-location-dialog.ui:61
+msgid "No Results Found"
+msgstr "Результатов не найдено"
+
+#: data/ui/world-location-dialog.ui:62
+msgid "Try a different search"
+msgstr "Попробуйте другой поисковый запрос"
+
+#: data/ui/world-standalone.ui:97
+msgid "Sunrise"
+msgstr "Рассвет"
+
+#: data/ui/world-standalone.ui:109
+msgid "Sunset"
+msgstr "Закат"
+
+#: src/alarm-face.vala:159
+#, c-format
+msgid "Alarm set for %s from now"
+msgstr "Будильник установлен на %s с этого момента"
+
+#. Prior to 3.36 unnamed alarms would just be called "Alarm",
+#. pretend alarms called "Alarm" don't have a name (of course
+#. this fails if the language/translation has since changed)
+#: src/alarm-item.vala:194 src/alarm-row.vala:90 src/window.vala:300
+msgid "Alarm"
+msgstr "Будильник"
+
+#: src/alarm-item.vala:197
+msgid "Stop"
+msgstr "Остановить"
+
+#: src/alarm-item.vala:198
+msgid "Snooze"
+msgstr "Отложить"
+
+#. Translators: The alarm for the time %s titled %s has been "snoozed"
+#: src/alarm-row.vala:97
+#, c-format
+msgid "%s: Snoozed until %s"
+msgstr "%s: Отложено до %s"
+
+#. Translators: %s is a time
+#: src/alarm-row.vala:100
+#, c-format
+msgid "Snoozed until %s"
+msgstr "Отложено до %s"
+
+#. Translators: The alarm titled %s was "missed"
+#: src/alarm-row.vala:107
+#, c-format
+msgid "Alarm %s was missed"
+msgstr "Будильник %s был пропущен"
+
+#: src/alarm-row.vala:109
+msgid "Alarm was missed"
+msgstr "Будильник был пропущен"
+
+#: src/alarm-setup-dialog.vala:41
+msgid "1 minute"
+msgstr "1 минута"
+
+#: src/alarm-setup-dialog.vala:42
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: src/alarm-setup-dialog.vala:43
+msgid "10 minutes"
+msgstr "10 минут"
+
+#: src/alarm-setup-dialog.vala:44
+msgid "15 minutes"
+msgstr "15 минут"
+
+#: src/alarm-setup-dialog.vala:45
+msgid "20 minutes"
+msgstr "20 минут"
+
+#: src/alarm-setup-dialog.vala:46
+msgid "30 minutes"
+msgstr "30 минут"
+
+#: src/alarm-setup-dialog.vala:128
+msgid "Edit Alarm"
+msgstr "Настроить будильник"
+
+#: src/alarm-setup-dialog.vala:131
+msgid "_Done"
+msgstr "_Готово"
+
+#. FIXME GtkMediaFile doesn't support gapless looping, causing audible
+#. clicks in alarm sounds. This is caused by GstPlay not supporting
+#. gapless chainup or looping.
+#. See https://gitlab.freedesktop.org/gstreamer/gstreamer/-/issues/1200
+#. for more information.
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:37
+msgid "Beep-Beep"
+msgstr "Бип-Бип"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:39
+msgid "Bird"
+msgstr "Птица"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:41
+msgid "Bonfire"
+msgstr "Костер"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:43
+msgid "Boudoir"
+msgstr "Будуар"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:45
+msgid "Bouncing"
+msgstr "Подпрыгивание"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:47
+msgid "Cautious Steps"
+msgstr "Настороженные шаги"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:49
+msgid "Chirping"
+msgstr "Чириканье"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:51
+msgid "Class Act"
+msgstr "Коллективное действие"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:53
+msgid "Crossing Bell"
+msgstr "Перекрестный колокол"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:55
+msgid "Daydreaming"
+msgstr "Грезы наяву"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:57
+msgid "Digitone"
+msgstr "Цифровой сигнал"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:59
+msgid "Enchanting"
+msgstr "Очаровывание"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:61
+msgid "Glass Bell"
+msgstr "Стеклянный колокол"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:63
+msgid "Guitar"
+msgstr "Гитара"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:65
+msgid "Jolly"
+msgstr "Веселье"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:67
+msgid "Mystery"
+msgstr "Тайна"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:69
+msgid "Ping Ping"
+msgstr "Дребезжание"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:71
+msgid "School Bell"
+msgstr "Школьный звонок"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:73
+msgid "Sonar"
+msgstr "Гидролокатор"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:75
+msgid "Sparkling"
+msgstr "Сверкание"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:77
+msgid "Tingling"
+msgstr "Покалывание"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:79
+msgid "Toys"
+msgstr "Игрушки"
+
+#: src/application.vala:23
+msgid "Print version information and exit"
+msgstr "Показать информацию о версии и выйти"
+
+#: src/stopwatch-face.vala:165
+msgid "_Pause"
+msgstr "_Приостановить"
+
+#: src/stopwatch-face.vala:169 src/stopwatch-face.vala:206
+msgid "_Lap"
+msgstr "_Круг"
+
+#: src/stopwatch-face.vala:181
+msgid "R_esume"
+msgstr "_Возобновить"
+
+#: src/stopwatch-laps-row.vala:48
+#, c-format
+msgid "Lap %i"
+msgstr "%i-й круг"
+
+#: src/timer-face.vala:83
+msgid "Time is up!"
+msgstr "Время истекло!"
+
+#: src/timer-face.vala:84
+msgid "Timer countdown finished"
+msgstr "Обратный отсчёт таймера завершён"
+
+#. Translators: The time is the same as the local time
+#: src/utils.vala:67
+msgid "Current timezone"
+msgstr "Текущий часовой пояс"
+
+#. Translators: The (possibly fractical) number hours in the past
+#. (relative to local) the clock/location is
+#: src/utils.vala:72
+#, c-format
+msgid "%s hour behind"
+msgid_plural "%s hours behind"
+msgstr[0] "на %s час отстает"
+msgstr[1] "на %s часа отстает"
+msgstr[2] "на %s часов отстает"
+
+#. Translators: The (possibly fractical) number hours in the
+#. future (relative to local) the clock/location is
+#: src/utils.vala:78
+#, c-format
+msgid "%s hour ahead"
+msgid_plural "%s hours ahead"
+msgstr[0] "на %s час опережает"
+msgstr[1] "на %s часа опережает"
+msgstr[2] "на %s часов опережает"
+
+#. Translators: This is used in the repeat toggle for Monday
+#: src/utils.vala:249
+msgctxt "Alarm|Repeat-On|Monday"
+msgid "M"
+msgstr "П"
+
+#. Translators: This is used in the repeat toggle for Tuesday
+#: src/utils.vala:251
+msgctxt "Alarm|Repeat-On|Tuesday"
+msgid "T"
+msgstr "В"
+
+#. Translators: This is used in the repeat toggle for Wednesday
+#: src/utils.vala:253
+msgctxt "Alarm|Repeat-On|Wednesday"
+msgid "W"
+msgstr "С"
+
+#. Translators: This is used in the repeat toggle for Thursday
+#: src/utils.vala:255
+msgctxt "Alarm|Repeat-On|Thursday"
+msgid "T"
+msgstr "Ч"
+
+#. Translators: This is used in the repeat toggle for Friday
+#: src/utils.vala:257
+msgctxt "Alarm|Repeat-On|Friday"
+msgid "F"
+msgstr "П"
+
+#. Translators: This is used in the repeat toggle for Saturday
+#: src/utils.vala:259
+msgctxt "Alarm|Repeat-On|Saturday"
+msgid "S"
+msgstr "С"
+
+#. Translators: This is used in the repeat toggle for Sunday
+#: src/utils.vala:261
+msgctxt "Alarm|Repeat-On|Sunday"
+msgid "S"
+msgstr "В"
+
+#: src/utils.vala:275
+msgid "Mondays"
+msgstr "По понедельникам"
+
+#: src/utils.vala:276
+msgid "Tuesdays"
+msgstr "По вторникам"
+
+#: src/utils.vala:277
+msgid "Wednesdays"
+msgstr "По средам"
+
+#: src/utils.vala:278
+msgid "Thursdays"
+msgstr "По четвергам"
+
+#: src/utils.vala:279
+msgid "Fridays"
+msgstr "По пятницам"
+
+#: src/utils.vala:280
+msgid "Saturdays"
+msgstr "По субботам"
+
+#: src/utils.vala:281
+msgid "Sundays"
+msgstr "По воскресеньям"
+
+#: src/utils.vala:407
+msgid "Every Day"
+msgstr "Ежедневно"
+
+#: src/utils.vala:409
+msgid "Weekdays"
+msgstr "По будням"
+
+#: src/utils.vala:411
+msgid "Weekends"
+msgstr "По выходным"
+
+#: src/window.vala:260
+msgid "translator-credits"
+msgstr ""
+"Станислав Соловей <whats_up@tut.by>, 2014-2019.\n"
+"Юрий Мясоедов <ymyasoedov@yandex.ru>, 2014.\n"
+"Alexey Rubtsov <rushills@gmail.com>, 2021"
+
+#. Translators: Tooltip for the + button
+#: src/world-face.vala:29
+msgid "Add Location"
+msgstr "Добавить местоположение"
+
+#. If it is Jan 1st there, and not Jan 2nd here, then it must be
+#. Dec 31st here, so return "tomorrow"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Tomorrow"
+msgstr "Завтра"
+
+#. If it is Jan 1st here, and not Jan 2nd there, then it must be
+#. Dec 31st there, so return "yesterday"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Yesterday"
+msgstr "Вчера"
+
+#. Translators: This clock represents the local time
+#: src/world-row.vala:47
+msgid "Current location"
+msgstr "Текущее местоположение"
+
+#~ msgid "Add a New World Clock"
+#~ msgstr "Добавить новые мировые часы"
+
+#, c-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s день"
+#~ msgstr[1] "%s дня"
+#~ msgstr[2] "%s дней"
+
+#~ msgid " and "
+#~ msgstr " и "
+
+#, c-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s минута"
+#~ msgstr[1] "%s минуты"
+#~ msgstr[2] "%s минут"
+
+#~ msgid "_Start"
+#~ msgstr "За_пустить"
+
+#~ msgid "Lap"
+#~ msgstr "Круг"
+
+#~ msgid "Menu"
+#~ msgstr "Меню"
+
+#~ msgid "Select Duration"
+#~ msgstr "Выбрать длительность"
+
+#, c-format
+#~ msgid "Snoozed from %s: %s"
+#~ msgstr "Отложено от %s: %s"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Cancel"
+#~ msgstr "Отменить"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Active"
+#~ msgstr "Включено"
+
+#~ msgid "Alarms"
+#~ msgstr "Будильники"
+
+#~ msgid "Goals:"
+#~ msgstr "Цели:"
+
+#~ msgid "Optional"
+#~ msgstr "Опционально"
+
+#~ msgid "Utilities to help you with the time."
+#~ msgstr "Утилиты для помощи в организации времени."

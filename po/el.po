@@ -1,0 +1,1100 @@
+# Greek translation for gnome-clocks.
+# Copyright (C) 2012 gnome-clocks's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-clocks package.
+# Tom Tryfonidis <tomtryf@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013, 2014.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-clocks\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-clocks/issues/\n"
+"POT-Creation-Date: 2026-01-31 11:52+0000\n"
+"PO-Revision-Date: 2026-02-12 23:29+0200\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@gmail.com>\n"
+"Language-Team: Greek, Modern (1453-) <gnome-el-list@gnome.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Project-Style: gnome\n"
+
+#: data/org.gnome.clocks.desktop.in.in:2 data/org.gnome.clocks.desktop.in.in:3
+#: data/org.gnome.clocks.metainfo.xml.in.in:6 data/ui/window.ui:27
+#: src/main.vala:26 src/window.vala:252 src/window.vala:304
+#: src/world-standalone.vala:24
+msgid "Clocks"
+msgstr "Ρολόγια"
+
+#: data/org.gnome.clocks.desktop.in.in:4
+msgid "Clocks for world times, plus alarms, stopwatch and a timer"
+msgstr ""
+"Ρολόγια για παγκόσμιες ώρες, για ειδοποιήσεις, με χρονόμετρο και αντίστροφη "
+"μέτρηση"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.clocks.desktop.in.in:6
+msgid "time;timer;alarm;world clock;stopwatch;time zone;"
+msgstr ""
+"χρόνος;χρονόμετρο;ξυπνητήρι;παγκόσμιο ρολόι;χρονόμετρο;ώρα "
+"ζώνης;time;timer;alarm;world clock;stopwatch;time zone;"
+
+#: data/org.gnome.clocks.desktop.in.in:16
+msgid "Allows world clocks to be displayed for your time zone."
+msgstr "Επιτρέπει την εμφάνιση των παγκόσμιων ρολογιών για την ζώνη ώρας σας."
+
+#: data/org.gnome.clocks.gschema.xml.in:5
+msgid "Configured world clocks"
+msgstr "Ρυθμισμένα παγκόσμια ρολόγια"
+
+#: data/org.gnome.clocks.gschema.xml.in:6
+msgid "List of world clocks to show."
+msgstr "Λίστα παγκόσμιων ρολογιών για εμφάνιση."
+
+#: data/org.gnome.clocks.gschema.xml.in:12
+msgid "Configured alarms"
+msgstr "Ρυθμισμένες ειδοποιήσεις"
+
+#: data/org.gnome.clocks.gschema.xml.in:13
+msgid "List of alarms set."
+msgstr "Λίστα του συνόλου ειδοποιήσεων."
+
+#: data/org.gnome.clocks.gschema.xml.in:19
+msgid "Configured Timers"
+msgstr "Ρυθμισμένοι χρονοδιακόπτες"
+
+#: data/org.gnome.clocks.gschema.xml.in:20
+msgid "List of timers set."
+msgstr "Λίστα χρονοδιακοπτών που ορίστηκαν."
+
+#: data/org.gnome.clocks.gschema.xml.in:26
+msgid "Geolocation support"
+msgstr "Υποστήριξη γεωτοποθέτησης"
+
+#: data/org.gnome.clocks.gschema.xml.in:27
+msgid "Turn geolocation support on and off."
+msgstr "Ενεργοποίηση και απενεργοποίηση υποστήριξης γεωτοποθέτησης."
+
+#: data/org.gnome.clocks.gschema.xml.in:44
+msgid "Window maximized"
+msgstr "Μεγιστοποιημένο παράθυρο"
+
+#: data/org.gnome.clocks.gschema.xml.in:45
+msgid "Whether the window is maximized."
+msgstr "Αν το παράθυρο είναι μεγιστοποιημένο."
+
+#: data/org.gnome.clocks.gschema.xml.in:51
+msgid "Window width and height"
+msgstr "Πλάτος και μήκος παραθύρου"
+
+#: data/org.gnome.clocks.gschema.xml.in:52
+msgid "Width and height of the window."
+msgstr "Πλάτος και μήκος του παραθύρου."
+
+#: data/org.gnome.clocks.gschema.xml.in:58
+msgid "Panel state"
+msgstr "Κατάσταση πίνακα"
+
+#: data/org.gnome.clocks.gschema.xml.in:59
+msgid "Current clock panel."
+msgstr "Τρέχουσα κατάσταση πίνακα."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:7
+msgid "Keep track of time"
+msgstr "Παρακολουθήστε τον χρόνο"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:9
+msgid ""
+"A simple and elegant clock application. It includes world clocks, alarms, a "
+"stopwatch, and timers."
+msgstr ""
+"Μια απλή και κομψή εφαρμογή ρολογιού. Περιλαμβάνει παγκόσμια ρολόγια, "
+"ξυπνητήρια, ένα χρονόμετρο και χρονοδιακόπτες."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:14
+msgid "Show the time in different cities around the world"
+msgstr "Δείτε τις ώρες διαφόρων πόλεων ανά τον κόσμο"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:15
+msgid "Set alarms to wake you up"
+msgstr "Ρυθμίστε ειδοποιήσεις για αφύπνιση"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:16
+msgid "Measure elapsed time with an accurate stopwatch"
+msgstr "Μετρήστε μια περιόδο χρόνου με ένα χρονόμετρο ακριβείας"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:17
+msgid "Set timers to properly cook your food"
+msgstr "Ρυθμίστε χρονοδιακόπτες για να μαγειρέψετε κατάλληλα το φαγητό σας"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:34
+msgid "Initial screen"
+msgstr "Αρχική οθόνη"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:38
+msgid "Alarms screen"
+msgstr "Οθόνη ειδοποιήσεων"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:42
+msgid "Stopwatch screen"
+msgstr "Οθόνη χρονόμετρου"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:46
+msgid "Timer screen"
+msgstr "Οθόνη αντίστροφης μέτρησης"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.clocks.metainfo.xml.in.in:227 src/window.vala:254
+msgid "The GNOME Project"
+msgstr "Το έργο GNOME"
+
+#: data/ui/alarm-day-picker-row.ui:21
+msgid "Repeat"
+msgstr "Επανάληψη"
+
+#: data/ui/alarm-face.ui:14
+msgid "Add A_larm…"
+msgstr "Προσθήκη _ξυπνητιριού…"
+
+#: data/ui/alarm-ringing-panel.ui:26
+msgid "_Stop"
+msgstr "_Διακοπή"
+
+#: data/ui/alarm-ringing-panel.ui:42
+#| msgid "Snooze"
+msgid "S_nooze"
+msgstr "Α_ναβολή"
+
+#: data/ui/alarm-row.ui:47
+msgid "Repeats"
+msgstr "Επαναλαμβάνεται"
+
+#: data/ui/alarm-row.ui:67
+msgid "Enable Alarm"
+msgstr "Ενεργοποίηση ξυπνητηριού"
+
+#: data/ui/alarm-row.ui:72 data/ui/timer-row.ui:152 data/ui/world-row.ui:19
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#. Translators: Tooltip for the + button
+#: data/ui/alarm-setup-dialog.ui:6 src/alarm-face.vala:28
+#: src/alarm-setup-dialog.vala:128
+msgid "New Alarm"
+msgstr "Νέα ειδοποίηση"
+
+#: data/ui/alarm-setup-dialog.ui:22 data/ui/world-location-dialog.ui:16
+msgid "_Cancel"
+msgstr "Ά_κυρο"
+
+#: data/ui/alarm-setup-dialog.ui:29 data/ui/world-location-dialog.ui:24
+msgid "_Add"
+msgstr "_Προσθήκη"
+
+#: data/ui/alarm-setup-dialog.ui:44
+msgid "You already have an alarm for this time"
+msgstr "Έχετε ήδη ένα ξυπνητήρι για την ώρα αυτή."
+
+#: data/ui/alarm-setup-dialog.ui:65 data/ui/timer-setup.ui:205
+msgid "Hours"
+msgstr "Ώρες"
+
+#: data/ui/alarm-setup-dialog.ui:90 data/ui/timer-setup.ui:238
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: data/ui/alarm-setup-dialog.ui:124
+msgid "Name"
+msgstr "Όνομα"
+
+#: data/ui/alarm-setup-dialog.ui:135 data/ui/alarm-setup-dialog.ui:195
+msgid "Alarm Sound"
+msgstr "Ήχος ξυπνητιριού"
+
+#: data/ui/alarm-setup-dialog.ui:160
+msgid "Ring Duration"
+msgstr "Διάρκεια κουδουνίσματος"
+
+#: data/ui/alarm-setup-dialog.ui:166
+msgid "Snooze Duration"
+msgstr "Διάρκεια αναβολής"
+
+#: data/ui/alarm-setup-dialog.ui:175
+msgid "R_emove Alarm"
+msgstr "_Αφαίρεση ξυπνητηριού"
+
+#: data/ui/header-bar.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "Συντομεύσεις _πληκτρολογίου"
+
+#: data/ui/header-bar.ui:10
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: data/ui/header-bar.ui:14
+msgid "_About Clocks"
+msgstr "_Περί του Ρολόγια"
+
+#: data/ui/header-bar.ui:56
+msgid "Main Menu"
+msgstr "Κυρίως μενού"
+
+#: data/ui/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Γενικά"
+
+#: data/ui/shortcuts-dialog.ui:10
+msgctxt "shortcut window"
+msgid "Show Help"
+msgstr "Εμφάνιση βοήθειας"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Άνοιγμα μενού"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Go to the Next Section"
+msgstr "Μετάβαση στην επόμενη περιοχή"
+
+#: data/ui/shortcuts-dialog.ui:40
+msgctxt "shortcut window"
+msgid "Go to the Previous Section"
+msgstr "Μετάβαση στην προηγούμενη περιοχή"
+
+#: data/ui/shortcuts-dialog.ui:46
+msgctxt "shortcut window"
+msgid "Go to the World Section"
+msgstr "Μετάβαση στην ενότητα Παγκόσμια ρολόγια"
+
+#: data/ui/shortcuts-dialog.ui:52
+msgctxt "shortcut window"
+msgid "Go to the Alarms Section"
+msgstr "Μετάβαση στην ενότητα Ξυπνητήρια"
+
+#: data/ui/shortcuts-dialog.ui:58
+msgctxt "shortcut window"
+msgid "Go to the Stopwatch Section"
+msgstr "Μετάβαση στην ενότητα Χρονόμετρο"
+
+#: data/ui/shortcuts-dialog.ui:64
+msgctxt "shortcut window"
+msgid "Go to the Timer Section"
+msgstr "Μετάβαση στην ενότητα Αντίστροφη μέτρηση"
+
+#: data/ui/shortcuts-dialog.ui:71
+msgctxt "shortcut window"
+msgid "World Clocks"
+msgstr "Παγκόσμια ρολόγια"
+
+#: data/ui/shortcuts-dialog.ui:75
+msgctxt "shortcut window"
+msgid "Add a World Clock"
+msgstr "Προσθήκη παγκόσμιου ρολογιού"
+
+#: data/ui/shortcuts-dialog.ui:82
+msgctxt "shortcut window"
+msgid "Alarm"
+msgstr "Ειδοποίηση"
+
+#: data/ui/shortcuts-dialog.ui:86
+msgctxt "shortcut window"
+msgid "Add an Alarm"
+msgstr "Προσθήκη Ξυπνητιριού"
+
+#: data/ui/shortcuts-dialog.ui:93
+msgctxt "shortcut window"
+msgid "Stopwatch"
+msgstr "Χρονόμετρο"
+
+#: data/ui/shortcuts-dialog.ui:97
+msgctxt "shortcut window"
+msgid "Pause All"
+msgstr "Παύση όλων"
+
+#: data/ui/shortcuts-dialog.ui:104
+msgctxt "shortcut window"
+msgid "Timer"
+msgstr "Αντίστροφη μέτρηση"
+
+#: data/ui/shortcuts-dialog.ui:108
+msgctxt "shortcut window"
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: data/ui/shortcuts-dialog.ui:114
+msgctxt "shortcut window"
+msgid "New Timer"
+msgstr "Νέα αντίστροφη μέτρηση"
+
+#. Translators: An alarm or timer empty sound name
+#: data/ui/sound-chooser.ui:19
+msgid "Silent"
+msgstr "Αθόρυβο"
+
+#: data/ui/stopwatch-face.ui:131 data/ui/timer-face.ui:26
+#: src/stopwatch-face.vala:197
+msgid "St_art"
+msgstr "Έ_ναρξη"
+
+#: data/ui/stopwatch-face.ui:145 src/stopwatch-face.vala:180
+msgid "_Clear"
+msgstr "_Εκκαθάριση"
+
+#: data/ui/stopwatch-laps-row.ui:14
+msgid "Time"
+msgstr "Ώρα"
+
+#: data/ui/stopwatch-laps-row.ui:25
+msgid "Difference"
+msgstr "Διαφορά"
+
+#: data/ui/timer-row.ui:32
+msgid "Title…"
+msgstr "Τίτλος…"
+
+#: data/ui/timer-row.ui:74
+msgid "Pause"
+msgstr "Παύση"
+
+#: data/ui/timer-row.ui:92 data/ui/timer-setup-dialog.ui:26
+msgid "Start"
+msgstr "Έναρξη"
+
+#: data/ui/timer-row.ui:119
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#. Translators: Tooltip for the + button
+#: data/ui/timer-setup-dialog.ui:4 src/timer-face.vala:39
+msgid "New Timer"
+msgstr "Νέα αντίστροφη μέτρηση"
+
+#: data/ui/timer-setup.ui:35
+msgid "Quick Start"
+msgstr "Γρήγορη εκκίνηση"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:55
+msgid "One minute"
+msgstr "Ένα λεπτό"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:60
+msgid "1 m"
+msgstr "1 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:70
+msgid "Two minutes"
+msgstr "Δύο λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:75
+msgid "2 m"
+msgstr "2 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:85
+msgid "Three minutes"
+msgstr "Τρία λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:90
+msgid "3 m"
+msgstr "3 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:100
+msgid "Five minutes"
+msgstr "Πέντε λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:105
+msgid "5 m"
+msgstr "5 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:115
+msgid "Thirty minutes"
+msgstr "Τριάντα λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:120
+msgid "30 m"
+msgstr "30 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:130
+msgid "Fifteen minutes"
+msgstr "Πενήντα λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:135
+msgid "15 m"
+msgstr "15 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:145
+msgid "Fortyfive minutes"
+msgstr "Σαρανταπέντε λεπτά"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:150
+msgid "45 m"
+msgstr "45 λ"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:160
+msgid "One hour"
+msgstr "Μία ώρα"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:165
+msgid "1 h"
+msgstr "1 ω"
+
+#: data/ui/timer-setup.ui:174
+msgid "Set Timer"
+msgstr "Ορισμός χρονοδιακόπτη"
+
+#: data/ui/timer-setup.ui:200 data/ui/timer-setup.ui:233
+#: data/ui/timer-setup.ui:267
+msgid "0"
+msgstr "0"
+
+#: data/ui/timer-setup.ui:272
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+#: data/ui/timer-setup.ui:304
+msgid "Title"
+msgstr "Τίτλος"
+
+#: data/ui/window.ui:44
+msgid "_World"
+msgstr "_Κόσμος"
+
+#: data/ui/window.ui:55
+msgid "Ala_rms"
+msgstr "_Ξυπνητήρια"
+
+#: data/ui/window.ui:66
+msgid "_Stopwatch"
+msgstr "_Χρονόμετρο"
+
+#: data/ui/window.ui:77
+msgid "_Timer"
+msgstr "_Αντίστροφη μέτρηση"
+
+#: data/ui/window.ui:98
+msgid "Clock"
+msgstr "Ρολόι"
+
+#: data/ui/window.ui:106
+msgid "Alarm Ringing"
+msgstr "Κουδούνισμα ξυπνητιριού"
+
+#: data/ui/world-face.ui:14
+msgid "_Add World Clock…"
+msgstr "_Προσθήκη παγκόσμιου ρολογιού…"
+
+#: data/ui/world-location-dialog.ui:4
+msgid "Add World Clock"
+msgstr "Προσθήκη παγκόσμιου ρολογιού"
+
+#: data/ui/world-location-dialog.ui:43
+msgid "Search cities"
+msgstr "Αναζήτηση πόλεων"
+
+#: data/ui/world-location-dialog.ui:54
+msgid "Perform a Search"
+msgstr "Εκτέλεση αναζήτησης"
+
+#: data/ui/world-location-dialog.ui:55
+msgid "The search results will appear here"
+msgstr "Τα αποτελέσματα της αναζήτησης θα εμφανιστούν εδώ"
+
+#: data/ui/world-location-dialog.ui:61
+msgid "No Results Found"
+msgstr "Δε βρέθηκαν αποτελέσματα"
+
+#: data/ui/world-location-dialog.ui:62
+msgid "Try a different search"
+msgstr "Δοκιμάστε μια διαφορετική αναζήτηση"
+
+#: data/ui/world-standalone.ui:97
+msgid "Sunrise"
+msgstr "Ανατολή"
+
+#: data/ui/world-standalone.ui:109
+msgid "Sunset"
+msgstr "Δύση"
+
+#: src/alarm-face.vala:157
+#, c-format
+msgid "Alarm set for %s from now"
+msgstr "Το ξυπνητήρι ορίστηκε για %s από τώρα"
+
+#. Prior to 3.36 unnamed alarms would just be called "Alarm",
+#. pretend alarms called "Alarm" don't have a name (of course
+#. this fails if the language/translation has since changed)
+#: src/alarm-item.vala:199 src/alarm-row.vala:90 src/window.vala:300
+msgid "Alarm"
+msgstr "Ειδοποίηση"
+
+#: src/alarm-item.vala:202
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: src/alarm-item.vala:203
+msgid "Snooze"
+msgstr "Αναβολή"
+
+#. Translators: The alarm for the time %s titled %s has been "snoozed"
+#: src/alarm-row.vala:97
+#, c-format
+msgid "%s: Snoozed until %s"
+msgstr "%s: Αναβλήθηκε μέχρι τις %s"
+
+#. Translators: %s is a time
+#: src/alarm-row.vala:100
+#, c-format
+msgid "Snoozed until %s"
+msgstr "Αναβλήθηκε μέχρι τις %s"
+
+#. Translators: The alarm titled %s was "missed"
+#: src/alarm-row.vala:107
+#, c-format
+msgid "Alarm %s was missed"
+msgstr "Το ξυπνητήρι %s παραλείφθηκε"
+
+#: src/alarm-row.vala:109
+msgid "Alarm was missed"
+msgstr "Το ξυπνητήρι παραλείφθηκε"
+
+#: src/alarm-setup-dialog.vala:41
+msgid "1 minute"
+msgstr "1 λεπτό"
+
+#: src/alarm-setup-dialog.vala:42
+msgid "5 minutes"
+msgstr "5 λεπτά"
+
+#: src/alarm-setup-dialog.vala:43
+msgid "10 minutes"
+msgstr "10 λεπτά"
+
+#: src/alarm-setup-dialog.vala:44
+msgid "15 minutes"
+msgstr "15 λεπτά"
+
+#: src/alarm-setup-dialog.vala:45
+msgid "20 minutes"
+msgstr "20 λεπτά"
+
+#: src/alarm-setup-dialog.vala:46
+msgid "30 minutes"
+msgstr "30 λεπτά"
+
+#: src/alarm-setup-dialog.vala:128
+msgid "Edit Alarm"
+msgstr "Επεξεργασία ειδοποίησης"
+
+#: src/alarm-setup-dialog.vala:131
+msgid "_Done"
+msgstr "Έ_τοιμο"
+
+#. FIXME GtkMediaFile doesn't support gapless looping, causing audible
+#. clicks in alarm sounds. This is caused by GstPlay not supporting
+#. gapless chainup or looping.
+#. See https://gitlab.freedesktop.org/gstreamer/gstreamer/-/issues/1200
+#. for more information.
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:37
+msgid "Beep-Beep"
+msgstr "Μπιπ-Μπιπ"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:39
+msgid "Bird"
+msgstr "Πτηνό"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:41
+msgid "Bonfire"
+msgstr "Φωτιά στην εξοχή"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:43
+msgid "Boudoir"
+msgstr "Μπουδουάρ"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:45
+msgid "Bouncing"
+msgstr "Αναπήδηση"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:47
+msgid "Cautious Steps"
+msgstr "Προσεκτικά βήματα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:49
+msgid "Chirping"
+msgstr "Τιτίβισμα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:51
+msgid "Class Act"
+msgstr "Κλασική ποιότητα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:53
+msgid "Crossing Bell"
+msgstr "Καμπάνα διάβασης"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:55
+msgid "Daydreaming"
+msgstr "Ονειροπόληση"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:57
+msgid "Digitone"
+msgstr "Digitone"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:59
+msgid "Enchanting"
+msgstr "Μαγευτικό"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:61
+msgid "Glass Bell"
+msgstr "Γυάλινη καμπάνα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:63
+msgid "Guitar"
+msgstr "Κιθάρα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:65
+msgid "Jolly"
+msgstr "Χαρούμενο"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:67
+msgid "Mystery"
+msgstr "Μυστήριο"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:69
+msgid "Ping Ping"
+msgstr "Πινγκ Πινγκ"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:71
+msgid "School Bell"
+msgstr "Κουδούνι σχολείου"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:73
+msgid "Sonar"
+msgstr "Σονάρ"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:75
+msgid "Sparkling"
+msgstr "Σπινθήρισμα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:77
+msgid "Tingling"
+msgstr "Κουδούνισμα"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:79
+msgid "Toys"
+msgstr "Παιχνίδια"
+
+#: src/application.vala:23
+msgid "Print version information and exit"
+msgstr "Προβολή πληροφοριών έκδοσης και έξοδος"
+
+#: src/stopwatch-face.vala:160
+msgid "_Pause"
+msgstr "_Παύση"
+
+#: src/stopwatch-face.vala:164 src/stopwatch-face.vala:201
+msgid "_Lap"
+msgstr "_Κύκλος"
+
+#: src/stopwatch-face.vala:176
+msgid "R_esume"
+msgstr "Σ_υνέχεια"
+
+#: src/stopwatch-laps-row.vala:48
+#, c-format
+msgid "Lap %i"
+msgstr "Γύρος %i"
+
+#: src/timer-face.vala:77
+msgid "Time is up!"
+msgstr "Τέλος χρόνου!"
+
+#: src/timer-face.vala:78
+msgid "Timer countdown finished"
+msgstr "Η αντίστροφη μέτρηση τελείωσε"
+
+#. Translators: The time is the same as the local time
+#: src/utils.vala:67
+msgid "Current timezone"
+msgstr "Τρέχουσα ζώνη ώρας"
+
+#. Translators: The (possibly fractical) number hours in the past
+#. (relative to local) the clock/location is
+#: src/utils.vala:72
+#, c-format
+msgid "%s hour behind"
+msgid_plural "%s hours behind"
+msgstr[0] "%s ώρα νωρίτερα"
+msgstr[1] "%s ώρες νωρίτερα"
+
+#. Translators: The (possibly fractical) number hours in the
+#. future (relative to local) the clock/location is
+#: src/utils.vala:78
+#, c-format
+msgid "%s hour ahead"
+msgid_plural "%s hours ahead"
+msgstr[0] "%s ώρα αργότερα"
+msgstr[1] "%s ώρες αργότερα"
+
+#. Translators: This is used in the repeat toggle for Monday
+#: src/utils.vala:249
+msgctxt "Alarm|Repeat-On|Monday"
+msgid "M"
+msgstr "Δε"
+
+#. Translators: This is used in the repeat toggle for Tuesday
+#: src/utils.vala:251
+msgctxt "Alarm|Repeat-On|Tuesday"
+msgid "T"
+msgstr "Τρ"
+
+#. Translators: This is used in the repeat toggle for Wednesday
+#: src/utils.vala:253
+msgctxt "Alarm|Repeat-On|Wednesday"
+msgid "W"
+msgstr "Τε"
+
+#. Translators: This is used in the repeat toggle for Thursday
+#: src/utils.vala:255
+msgctxt "Alarm|Repeat-On|Thursday"
+msgid "T"
+msgstr "Πε"
+
+#. Translators: This is used in the repeat toggle for Friday
+#: src/utils.vala:257
+msgctxt "Alarm|Repeat-On|Friday"
+msgid "F"
+msgstr "Πα"
+
+#. Translators: This is used in the repeat toggle for Saturday
+#: src/utils.vala:259
+msgctxt "Alarm|Repeat-On|Saturday"
+msgid "S"
+msgstr "Σα"
+
+#. Translators: This is used in the repeat toggle for Sunday
+#: src/utils.vala:261
+msgctxt "Alarm|Repeat-On|Sunday"
+msgid "S"
+msgstr "Κυ"
+
+#: src/utils.vala:275
+msgid "Mondays"
+msgstr "Δευτέρες"
+
+#: src/utils.vala:276
+msgid "Tuesdays"
+msgstr "Τρίτες"
+
+#: src/utils.vala:277
+msgid "Wednesdays"
+msgstr "Τετάρτες"
+
+#: src/utils.vala:278
+msgid "Thursdays"
+msgstr "Πέμπτες"
+
+#: src/utils.vala:279
+msgid "Fridays"
+msgstr "Παρασκευές"
+
+#: src/utils.vala:280
+msgid "Saturdays"
+msgstr "Σάββατα"
+
+#: src/utils.vala:281
+msgid "Sundays"
+msgstr "Κυριακές"
+
+#: src/utils.vala:407
+msgid "Every Day"
+msgstr "Καθημερινά"
+
+#: src/utils.vala:409
+msgid "Weekdays"
+msgstr "Εργάσιμες"
+
+#: src/utils.vala:411
+msgid "Weekends"
+msgstr "Σαββατοκύριακα"
+
+#: src/window.vala:260
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Δημήτρης Σπίγγος <dmtrs32@gmail.com>\n"
+" Θάνος Τρυφωνίδης <tomtryf@gnome.org>\n"
+" Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>\n"
+" Εύα Φωτοπούλου <eva_fotopoulou@hotmail.com>\n"
+"\n"
+"Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα\n"
+"http://gnome.gr/"
+
+#. Translators: Tooltip for the + button
+#: src/world-face.vala:29
+msgid "Add Location"
+msgstr "Προσθήκη τοποθεσίας"
+
+#. If it is Jan 1st there, and not Jan 2nd here, then it must be
+#. Dec 31st here, so return "tomorrow"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Tomorrow"
+msgstr "Αύριο"
+
+#. If it is Jan 1st here, and not Jan 2nd there, then it must be
+#. Dec 31st there, so return "yesterday"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Yesterday"
+msgstr "Χθές"
+
+#. Translators: This clock represents the local time
+#: src/world-row.vala:47
+msgid "Current location"
+msgstr "Τρέχουσα τοποθεσία"
+
+#~ msgid "Add a New World Clock"
+#~ msgstr "Προσθήκη παγκόσμιου ρολογιού"
+
+#, c-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s ημέρα"
+#~ msgstr[1] "%s ημέρες"
+
+#~ msgid " and "
+#~ msgstr " και "
+
+#, c-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s λεπτό"
+#~ msgstr[1] "%s λεπτά"
+
+#~ msgid "_Start"
+#~ msgstr "Έ_ναρξη"
+
+#~ msgid "Lap"
+#~ msgstr "Γύρος"
+
+#~ msgid "Menu"
+#~ msgstr "Μενού"
+
+#~ msgid "Select Duration"
+#~ msgstr "Επιλογή διάρκειας"
+
+#, c-format
+#~ msgid "Snoozed from %s: %s"
+#~ msgstr "Αναβλήθηκε από %s: %s"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Cancel"
+#~ msgstr "Aκύρωση"
+
+#~ msgid "Done"
+#~ msgstr "Ολοκλήρωση"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "GNOME Clocks"
+#~ msgstr "Ρολόγια GNOME"
+
+#~ msgid "Goals:"
+#~ msgstr "Στόχοι:"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Συντομεύσεις πληκτρολογίου"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Add a world clock"
+#~ msgstr "Προσθήκη παγκόσμιου ρολογιού"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Stop / Reset"
+#~ msgstr "Διακοπή / Επαναφορά"
+
+#~ msgid "Active"
+#~ msgstr "Ενεργό"
+
+#~ msgid "Optional"
+#~ msgstr "Προαιρετικό"
+
+#~ msgid "Alarms"
+#~ msgstr "Ξυπνητήρια"
+
+#, c-format
+#~ msgid "Failed to show help: %s"
+#~ msgstr "Αποτυχία προβολής βοήθειας: %s"
+
+#~ msgid "Utilities to help you with the time."
+#~ msgstr "Εργαλεία για να βοηθηθείτε με το χρόνο."
+
+#~ msgid "Edit"
+#~ msgstr "Επεξεργασία"
+
+#~ msgid "Select <b>New</b> to add a world clock"
+#~ msgstr "Επιλέξτε <b>Νέο</b> για να προσθέσετε ένα παγκόσμιο ρολόι"
+
+#~ msgctxt "Repeat|Thursday"
+#~ msgid "T"
+#~ msgstr "Πεμ"
+
+#~ msgctxt "Repeat|Sunday"
+#~ msgid "S"
+#~ msgstr "Κυ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Select all world clocks"
+#~ msgstr "Επιλογή όλων των παγκόσμιων ρολογιών"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Select all alarms"
+#~ msgstr "Επιλογή όλων των ειδοποιήσεων"
+
+#~ msgid "Select All"
+#~ msgstr "Επιλογή όλων"
+
+#~ msgid "Configured timer duration in seconds."
+#~ msgstr "Διάρκεια ρυθμισμένου χρονομέτρου σε δευτερόλεπτα."
+
+#~ msgid "Select <b>New</b> to add an alarm"
+#~ msgstr "Επιλέξτε <b>Νέα</b> για να προσθέσετε μια ειδοποίηση"
+
+#~| msgid "Select All"
+#~ msgid "Select"
+#~ msgstr "Επιλογή"
+
+#~ msgid "Continue"
+#~ msgstr "Συνέχεια"
+
+#~ msgid "Click on items to select them"
+#~ msgstr "Κάντε κλικ στα αντικείμενα για να τα επιλέξετε"
+
+#~ msgid "%u selected"
+#~ msgid_plural "%u selected"
+#~ msgstr[0] "Επιλέχθηκε %u"
+#~ msgstr[1] "Επιλέχθηκαν %u"
+
+#~ msgid "@icon@"
+#~ msgstr "@icon@"
+
+#~ msgctxt "Alarm"
+#~ msgid "New"
+#~ msgstr "Νέα"
+
+#~ msgctxt "World clock"
+#~ msgid "New"
+#~ msgstr "Νέο"
+
+#~ msgid "org.gnome.clocks"
+#~ msgstr "org.gnome.clocks"
+
+#~ msgid "_About"
+#~ msgstr "_Περί"
+
+#~ msgid "_Quit"
+#~ msgstr "_Παύση"
+
+#~ msgid "_New"
+#~ msgstr "_Νέο"
+
+#~ msgid "Split"
+#~ msgstr "Διαχωρισμός"
+
+#~ msgid "Total"
+#~ msgstr "Σύνολο"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Laps"
+#~ msgstr "Γύροι"
+
+#~ msgid "Add New Clock"
+#~ msgstr "Προσθήκη νέου ρολογιού"
+
+#~ msgid "Save"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "Sound"
+#~ msgstr "Ήχος"
+
+#~ msgid "Mon"
+#~ msgstr "Δευ"
+
+#~ msgid "Tue"
+#~ msgstr "Τρί"
+
+#~ msgid "Wed"
+#~ msgstr "Τετ"
+
+#~ msgid "Thu"
+#~ msgstr "Πέμ"
+
+#~ msgid "Fri"
+#~ msgstr "Παρ"
+
+#~ msgid "Sat"
+#~ msgstr "Σάβ"
+
+#~ msgid "Sun"
+#~ msgstr "Κυρ"
+
+#~ msgid "About GNOME Clocks"
+#~ msgstr "Περί Ρολόγια του GNOME"
+
+#~ msgid "Clocks is a clock application for the GNOME Desktop"
+#~ msgstr "Τα Ρολόγια είναι μια εφαρμογή ρολογιών για το GNOME"

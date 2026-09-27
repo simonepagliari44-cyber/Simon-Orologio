@@ -1,0 +1,1064 @@
+# Dutch translation for gnome-clocks.
+# This file is distributed under the same license as the gnome-clocks package.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2013.
+# Erwin Poeze <donnut@outlook.com>, 2013, 2014.
+# Reinout van Schouwen <reinouts@gnome.org>, 2015.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2016.
+# Nathan Follens <nfollens@gnome.org>, 2017, 2019-2026.
+# Dick Groskamp <digro@yahoo.co.uk>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-clocks master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-clocks/issues/\n"
+"POT-Creation-Date: 2026-03-11 19:57+0000\n"
+"PO-Revision-Date: 2026-04-20 00:14+0200\n"
+"Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
+"Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+"X-Project-Style: gnome\n"
+
+#: data/org.gnome.clocks.desktop.in.in:2 data/org.gnome.clocks.desktop.in.in:3
+#: data/org.gnome.clocks.metainfo.xml.in.in:6 data/ui/window.ui:27
+#: src/main.vala:26 src/window.vala:252 src/window.vala:304
+#: src/world-standalone.vala:24
+msgid "Clocks"
+msgstr "Klok"
+
+#: data/org.gnome.clocks.desktop.in.in:4
+msgid "Clocks for world times, plus alarms, stopwatch and a timer"
+msgstr "Wereldklok, wekker, stopwatch en timer"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.clocks.desktop.in.in:6
+msgid "time;timer;alarm;world clock;stopwatch;time zone;"
+msgstr ""
+"time;timer;alarm;world clock;stopwatch;time "
+"zone;klok;tijd;wekker;wereldtijd;wereldklok;tijdzone;"
+
+#: data/org.gnome.clocks.desktop.in.in:16
+msgid "Allows world clocks to be displayed for your time zone."
+msgstr "Uw tijdzone kan worden weergegeven in de wereldklok."
+
+#: data/org.gnome.clocks.gschema.xml.in:5
+msgid "Configured world clocks"
+msgstr "Ingestelde wereldklokken"
+
+#: data/org.gnome.clocks.gschema.xml.in:6
+msgid "List of world clocks to show."
+msgstr "Lijst van de te tonen wereldklokken."
+
+#: data/org.gnome.clocks.gschema.xml.in:12
+msgid "Configured alarms"
+msgstr "Ingestelde wekkers"
+
+#: data/org.gnome.clocks.gschema.xml.in:13
+msgid "List of alarms set."
+msgstr "Lijst van ingestelde wekkers."
+
+#: data/org.gnome.clocks.gschema.xml.in:19
+msgid "Configured Timers"
+msgstr "Ingestelde timers"
+
+#: data/org.gnome.clocks.gschema.xml.in:20
+msgid "List of timers set."
+msgstr "Lijst van ingestelde timers."
+
+#: data/org.gnome.clocks.gschema.xml.in:26
+msgid "Geolocation support"
+msgstr "Ondersteuning geografische locatie"
+
+#: data/org.gnome.clocks.gschema.xml.in:27
+msgid "Turn geolocation support on and off."
+msgstr "In- en uitschakelen van geolocatie-ondersteuning."
+
+#: data/org.gnome.clocks.gschema.xml.in:44
+msgid "Window maximized"
+msgstr "Venstergrootte gemaximaliseerd"
+
+#: data/org.gnome.clocks.gschema.xml.in:45
+msgid "Whether the window is maximized."
+msgstr "Of het venster gemaximaliseerd moet zijn."
+
+#: data/org.gnome.clocks.gschema.xml.in:51
+msgid "Window width and height"
+msgstr "Vensterbreedte en -hoogte"
+
+#: data/org.gnome.clocks.gschema.xml.in:52
+msgid "Width and height of the window."
+msgstr "Breedte en hoogte van het venster."
+
+#: data/org.gnome.clocks.gschema.xml.in:58
+msgid "Panel state"
+msgstr "Paneelstaat"
+
+#: data/org.gnome.clocks.gschema.xml.in:59
+msgid "Current clock panel."
+msgstr "Huidige klokpaneel."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:7
+msgid "Keep track of time"
+msgstr "Houd de tijd bij"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:9
+msgid ""
+"A simple and elegant clock application. It includes world clocks, alarms, a "
+"stopwatch, and timers."
+msgstr ""
+"Een eenvoudige en elegante kloktoepassing met daarin wereldklokken, wekkers, "
+"een stopwatch en timers."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:14
+msgid "Show the time in different cities around the world"
+msgstr "Toon de tijd in verschillende wereldsteden"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:15
+msgid "Set alarms to wake you up"
+msgstr "Stel wekkers in om te ontwaken"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:16
+msgid "Measure elapsed time with an accurate stopwatch"
+msgstr "Meet de verlopen tijd met een nauwkeurige stopwatch"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:17
+msgid "Set timers to properly cook your food"
+msgstr "Stel timers in om de kooktijd bij te houden"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:34
+msgid "Initial screen"
+msgstr "Opstartscherm"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:38
+msgid "Alarms screen"
+msgstr "Wekkerscherm"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:42
+msgid "Stopwatch screen"
+msgstr "Stopwatch-scherm"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:46
+msgid "Timer screen"
+msgstr "Timerscherm"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.clocks.metainfo.xml.in.in:220 src/window.vala:254
+msgid "The GNOME Project"
+msgstr "Het GNOME-project"
+
+#: data/ui/alarm-day-picker-row.ui:21
+msgid "Repeat"
+msgstr "Herhalen"
+
+#: data/ui/alarm-face.ui:14
+msgid "Add A_larm…"
+msgstr "We_kker toevoegen…"
+
+#: data/ui/alarm-ringing-panel.ui:26
+msgid "_Stop"
+msgstr "Uit_zetten"
+
+#: data/ui/alarm-ringing-panel.ui:42
+msgid "S_nooze"
+msgstr "Uitze"
+
+#: data/ui/alarm-row.ui:47
+msgid "Repeats"
+msgstr "Herhalingen"
+
+#: data/ui/alarm-row.ui:67
+msgid "Enable Alarm"
+msgstr "Wekker inschakelen"
+
+#: data/ui/alarm-row.ui:72 data/ui/timer-row.ui:152 data/ui/world-row.ui:19
+msgid "Delete"
+msgstr "Verwijderen"
+
+#. Translators: Tooltip for the + button
+#: data/ui/alarm-setup-dialog.ui:6 src/alarm-face.vala:28
+#: src/alarm-setup-dialog.vala:128
+msgid "New Alarm"
+msgstr "Nieuwe wekker"
+
+#: data/ui/alarm-setup-dialog.ui:22 data/ui/world-location-dialog.ui:16
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: data/ui/alarm-setup-dialog.ui:29 data/ui/world-location-dialog.ui:24
+msgid "_Add"
+msgstr "_Toevoegen"
+
+#: data/ui/alarm-setup-dialog.ui:44
+msgid "You already have an alarm for this time"
+msgstr "U hebt al een wekker voor deze tijd gezet"
+
+#: data/ui/alarm-setup-dialog.ui:65 data/ui/timer-setup.ui:205
+msgid "Hours"
+msgstr "Uur"
+
+#: data/ui/alarm-setup-dialog.ui:90 data/ui/timer-setup.ui:238
+msgid "Minutes"
+msgstr "Minuten"
+
+#: data/ui/alarm-setup-dialog.ui:124
+msgid "Name"
+msgstr "Naam"
+
+#: data/ui/alarm-setup-dialog.ui:135 data/ui/alarm-setup-dialog.ui:195
+msgid "Alarm Sound"
+msgstr "Wekkergeluid"
+
+#: data/ui/alarm-setup-dialog.ui:160
+msgid "Ring Duration"
+msgstr "Wekkerduur"
+
+#: data/ui/alarm-setup-dialog.ui:166
+msgid "Snooze Duration"
+msgstr "Sluimerduur"
+
+#: data/ui/alarm-setup-dialog.ui:175
+msgid "R_emove Alarm"
+msgstr "Wekker v_erwijderen"
+
+#: data/ui/header-bar.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "Snel_toetsen"
+
+#: data/ui/header-bar.ui:10
+msgid "_Help"
+msgstr "_Hulp"
+
+#: data/ui/header-bar.ui:14
+msgid "_About Clocks"
+msgstr "_Over Klok"
+
+#: data/ui/header-bar.ui:56
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#: data/ui/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: data/ui/shortcuts-dialog.ui:10
+msgctxt "shortcut window"
+msgid "Show Help"
+msgstr "Hulp tonen"
+
+#: data/ui/shortcuts-dialog.ui:16
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Menu openen"
+
+#: data/ui/shortcuts-dialog.ui:22
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Sneltoetsen"
+
+#: data/ui/shortcuts-dialog.ui:28
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: data/ui/shortcuts-dialog.ui:34
+msgctxt "shortcut window"
+msgid "Go to the Next Section"
+msgstr "Naar de volgende sectie"
+
+#: data/ui/shortcuts-dialog.ui:40
+msgctxt "shortcut window"
+msgid "Go to the Previous Section"
+msgstr "Naar de vorige sectie"
+
+#: data/ui/shortcuts-dialog.ui:46
+msgctxt "shortcut window"
+msgid "Go to the World Section"
+msgstr "Naar de sectie Wereld"
+
+#: data/ui/shortcuts-dialog.ui:52
+msgctxt "shortcut window"
+msgid "Go to the Alarms Section"
+msgstr "Naar de sectie Wekkers"
+
+#: data/ui/shortcuts-dialog.ui:58
+msgctxt "shortcut window"
+msgid "Go to the Stopwatch Section"
+msgstr "Naar de sectie Stopwatch"
+
+#: data/ui/shortcuts-dialog.ui:64
+msgctxt "shortcut window"
+msgid "Go to the Timer Section"
+msgstr "Naar de sectie Timer"
+
+#: data/ui/shortcuts-dialog.ui:71
+msgctxt "shortcut window"
+msgid "World Clocks"
+msgstr "Wereldklokken"
+
+#: data/ui/shortcuts-dialog.ui:75
+msgctxt "shortcut window"
+msgid "Add a World Clock"
+msgstr "Wereldklok toevoegen"
+
+#: data/ui/shortcuts-dialog.ui:82
+msgctxt "shortcut window"
+msgid "Alarm"
+msgstr "Wekker"
+
+#: data/ui/shortcuts-dialog.ui:86
+msgctxt "shortcut window"
+msgid "Add an Alarm"
+msgstr "Wekker toevoegen"
+
+#: data/ui/shortcuts-dialog.ui:93
+msgctxt "shortcut window"
+msgid "Stopwatch"
+msgstr "Stopwatch"
+
+#: data/ui/shortcuts-dialog.ui:97
+msgctxt "shortcut window"
+msgid "Pause All"
+msgstr "Alles pauzeren"
+
+#: data/ui/shortcuts-dialog.ui:104
+msgctxt "shortcut window"
+msgid "Timer"
+msgstr "Timer"
+
+#: data/ui/shortcuts-dialog.ui:108
+msgctxt "shortcut window"
+msgid "Reset"
+msgstr "Opnieuw"
+
+#: data/ui/shortcuts-dialog.ui:114
+msgctxt "shortcut window"
+msgid "New Timer"
+msgstr "Nieuwe timer"
+
+#. Translators: An alarm or timer empty sound name
+#: data/ui/sound-chooser.ui:19
+msgid "Silent"
+msgstr "Stil"
+
+#: data/ui/stopwatch-face.ui:131 data/ui/timer-face.ui:26
+#: src/stopwatch-face.vala:197
+msgid "St_art"
+msgstr "St_arten"
+
+#: data/ui/stopwatch-face.ui:145 src/stopwatch-face.vala:180
+msgid "_Clear"
+msgstr "_Wissen"
+
+#: data/ui/stopwatch-laps-row.ui:14
+msgid "Time"
+msgstr "Tijd"
+
+#: data/ui/stopwatch-laps-row.ui:25
+msgid "Difference"
+msgstr "Verschil"
+
+#: data/ui/timer-row.ui:32
+msgid "Title…"
+msgstr "Titel…"
+
+#: data/ui/timer-row.ui:74
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: data/ui/timer-row.ui:92 data/ui/timer-setup-dialog.ui:26
+msgid "Start"
+msgstr "Starten"
+
+#: data/ui/timer-row.ui:119
+msgid "Reset"
+msgstr "Opnieuw"
+
+#. Translators: Tooltip for the + button
+#: data/ui/timer-setup-dialog.ui:4 src/timer-face.vala:39
+msgid "New Timer"
+msgstr "Nieuwe timer"
+
+#: data/ui/timer-setup.ui:35
+msgid "Quick Start"
+msgstr "Snelstarten"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:55
+msgid "One minute"
+msgstr "Eén minuut"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:60
+msgid "1 m"
+msgstr "1m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:70
+msgid "Two minutes"
+msgstr "Twee minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:75
+msgid "2 m"
+msgstr "2m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:85
+msgid "Three minutes"
+msgstr "Drie minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:90
+msgid "3 m"
+msgstr "3m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:100
+msgid "Five minutes"
+msgstr "Vijf minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:105
+msgid "5 m"
+msgstr "5m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:115
+msgid "Thirty minutes"
+msgstr "Dertig minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:120
+msgid "30 m"
+msgstr "30m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:130
+msgid "Fifteen minutes"
+msgstr "Vijftien minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:135
+msgid "15 m"
+msgstr "15m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:145
+msgid "Fortyfive minutes"
+msgstr "Vijfenveertig minuten"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:150
+msgid "45 m"
+msgstr "45m"
+
+#. Translators: An accessible timer quick start value
+#: data/ui/timer-setup.ui:160
+msgid "One hour"
+msgstr "Eén uur"
+
+#. Translators: A timer quick start value
+#: data/ui/timer-setup.ui:165
+msgid "1 h"
+msgstr "1u"
+
+#: data/ui/timer-setup.ui:174
+msgid "Set Timer"
+msgstr "Timer instellen"
+
+#: data/ui/timer-setup.ui:200 data/ui/timer-setup.ui:233
+#: data/ui/timer-setup.ui:267
+msgid "0"
+msgstr "0"
+
+#: data/ui/timer-setup.ui:272
+msgid "Seconds"
+msgstr "Seconden"
+
+#: data/ui/timer-setup.ui:304
+msgid "Title"
+msgstr "Titel"
+
+#: data/ui/window.ui:44
+msgid "_World"
+msgstr "_Wereld"
+
+#: data/ui/window.ui:55
+msgid "Ala_rms"
+msgstr "Wekke_rs"
+
+#: data/ui/window.ui:66
+msgid "_Stopwatch"
+msgstr "_Stopwatch"
+
+#: data/ui/window.ui:77
+msgid "_Timer"
+msgstr "_Timer"
+
+#: data/ui/window.ui:98
+msgid "Clock"
+msgstr "Klok"
+
+#: data/ui/window.ui:106
+msgid "Alarm Ringing"
+msgstr "Wekker gaat af"
+
+#: data/ui/world-face.ui:14
+msgid "_Add World Clock…"
+msgstr "Wereldklok _toevoegen…"
+
+#: data/ui/world-location-dialog.ui:4
+msgid "Add World Clock"
+msgstr "Wereldklok toevoegen"
+
+#: data/ui/world-location-dialog.ui:43
+msgid "Search cities"
+msgstr "Zoek naar steden"
+
+#: data/ui/world-location-dialog.ui:54
+msgid "Perform a Search"
+msgstr "Voer een zoekopdracht uit"
+
+#: data/ui/world-location-dialog.ui:55
+msgid "The search results will appear here"
+msgstr "De zoekresultaten zullen hier verschijnen"
+
+#: data/ui/world-location-dialog.ui:61
+msgid "No Results Found"
+msgstr "Geen resultaten gevonden"
+
+#: data/ui/world-location-dialog.ui:62
+msgid "Try a different search"
+msgstr "Probeer een andere zoekopdracht"
+
+#: data/ui/world-standalone.ui:97
+msgid "Sunrise"
+msgstr "Zonsopgang"
+
+#: data/ui/world-standalone.ui:109
+msgid "Sunset"
+msgstr "Zonsondergang"
+
+#: src/alarm-face.vala:157
+#, c-format
+msgid "Alarm set for %s from now"
+msgstr "Wekker gezet voor over %s seconden"
+
+#. Prior to 3.36 unnamed alarms would just be called "Alarm",
+#. pretend alarms called "Alarm" don't have a name (of course
+#. this fails if the language/translation has since changed)
+#: src/alarm-item.vala:199 src/alarm-row.vala:90 src/window.vala:300
+msgid "Alarm"
+msgstr "Wekker"
+
+#: src/alarm-item.vala:202
+msgid "Stop"
+msgstr "Uitzetten"
+
+#: src/alarm-item.vala:203
+msgid "Snooze"
+msgstr "Uitstellen"
+
+#. Translators: The alarm for the time %s titled %s has been "snoozed"
+#: src/alarm-row.vala:97
+#, c-format
+msgid "%s: Snoozed until %s"
+msgstr "%s: uitgesteld tot %s"
+
+#. Translators: %s is a time
+#: src/alarm-row.vala:100
+#, c-format
+msgid "Snoozed until %s"
+msgstr "Uitgesteld tot %s"
+
+#. Translators: The alarm titled %s was "missed"
+#: src/alarm-row.vala:107
+#, c-format
+msgid "Alarm %s was missed"
+msgstr "Wekker %s gemist"
+
+#: src/alarm-row.vala:109
+msgid "Alarm was missed"
+msgstr "Wekker gemist"
+
+#: src/alarm-setup-dialog.vala:41
+msgid "1 minute"
+msgstr "1 minuut"
+
+#: src/alarm-setup-dialog.vala:42
+msgid "5 minutes"
+msgstr "5 minuten"
+
+#: src/alarm-setup-dialog.vala:43
+msgid "10 minutes"
+msgstr "10 minuten"
+
+#: src/alarm-setup-dialog.vala:44
+msgid "15 minutes"
+msgstr "15 minuten"
+
+#: src/alarm-setup-dialog.vala:45
+msgid "20 minutes"
+msgstr "20 minuten"
+
+#: src/alarm-setup-dialog.vala:46
+msgid "30 minutes"
+msgstr "30 minuten"
+
+#: src/alarm-setup-dialog.vala:128
+msgid "Edit Alarm"
+msgstr "Wekker bewerken"
+
+#: src/alarm-setup-dialog.vala:131
+msgid "_Done"
+msgstr "_Klaar"
+
+#. FIXME GtkMediaFile doesn't support gapless looping, causing audible
+#. clicks in alarm sounds. This is caused by GstPlay not supporting
+#. gapless chainup or looping.
+#. See https://gitlab.freedesktop.org/gstreamer/gstreamer/-/issues/1200
+#. for more information.
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:37
+msgid "Beep-Beep"
+msgstr "Biep-biep"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:39
+msgid "Bird"
+msgstr "Vogel"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:41
+msgid "Bonfire"
+msgstr "Kampvuur"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:43
+msgid "Boudoir"
+msgstr "Boudoir"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:45
+msgid "Bouncing"
+msgstr "Stuiteren"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:47
+msgid "Cautious Steps"
+msgstr "Voorzichtige stappen"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:49
+msgid "Chirping"
+msgstr "Tsjilpen"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:51
+msgid "Class Act"
+msgstr "Bewonderenswaardig"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:53
+msgid "Crossing Bell"
+msgstr "Oversteekbel"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:55
+msgid "Daydreaming"
+msgstr "Dagdromen"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:57
+msgid "Digitone"
+msgstr "Digitoon"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:59
+msgid "Enchanting"
+msgstr "Betoveren"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:61
+msgid "Glass Bell"
+msgstr "Glazen bel"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:63
+msgid "Guitar"
+msgstr "Gitaar"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:65
+msgid "Jolly"
+msgstr "Vrolijk"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:67
+#| msgid "Yesterday"
+msgid "Mystery"
+msgstr "Mysterie"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:69
+msgid "Ping Ping"
+msgstr "Ping Ping"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:71
+msgid "School Bell"
+msgstr "Schoolbel"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:73
+msgid "Sonar"
+msgstr "Sonar"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:75
+msgid "Sparkling"
+msgstr "Glinsteren"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:77
+msgid "Tingling"
+msgstr "Tintelen"
+
+#. Translators: An alarm sound name
+#: src/alarm-sound-model.vala:79
+msgid "Toys"
+msgstr "Speelgoed"
+
+#: src/application.vala:23
+msgid "Print version information and exit"
+msgstr "Versieinformatie tonen en afsluiten"
+
+#: src/stopwatch-face.vala:160
+msgid "_Pause"
+msgstr "_Pauzeren"
+
+#: src/stopwatch-face.vala:164 src/stopwatch-face.vala:201
+msgid "_Lap"
+msgstr "_Ronde"
+
+#: src/stopwatch-face.vala:176
+msgid "R_esume"
+msgstr "H_ervatten"
+
+#: src/stopwatch-laps-row.vala:48
+#, c-format
+msgid "Lap %i"
+msgstr "Ronde %i"
+
+#: src/timer-face.vala:77
+msgid "Time is up!"
+msgstr "Tijd is om!"
+
+#: src/timer-face.vala:78
+msgid "Timer countdown finished"
+msgstr "Klaar met aftellen"
+
+#. Translators: The time is the same as the local time
+#: src/utils.vala:67
+msgid "Current timezone"
+msgstr "Huidige tijdzone"
+
+#. Translators: The (possibly fractical) number hours in the past
+#. (relative to local) the clock/location is
+#: src/utils.vala:72
+#, c-format
+msgid "%s hour behind"
+msgid_plural "%s hours behind"
+msgstr[0] "%s uur vroeger"
+msgstr[1] "%s uur vroeger"
+
+#. Translators: The (possibly fractical) number hours in the
+#. future (relative to local) the clock/location is
+#: src/utils.vala:78
+#, c-format
+msgid "%s hour ahead"
+msgid_plural "%s hours ahead"
+msgstr[0] "%s uur later"
+msgstr[1] "%s uur later"
+
+#. Translators: This is used in the repeat toggle for Monday
+#: src/utils.vala:249
+msgctxt "Alarm|Repeat-On|Monday"
+msgid "M"
+msgstr "m"
+
+#. Translators: This is used in the repeat toggle for Tuesday
+#: src/utils.vala:251
+msgctxt "Alarm|Repeat-On|Tuesday"
+msgid "T"
+msgstr "d"
+
+#. Translators: This is used in the repeat toggle for Wednesday
+#: src/utils.vala:253
+msgctxt "Alarm|Repeat-On|Wednesday"
+msgid "W"
+msgstr "w"
+
+#. Translators: This is used in the repeat toggle for Thursday
+#: src/utils.vala:255
+msgctxt "Alarm|Repeat-On|Thursday"
+msgid "T"
+msgstr "d"
+
+#. Translators: This is used in the repeat toggle for Friday
+#: src/utils.vala:257
+msgctxt "Alarm|Repeat-On|Friday"
+msgid "F"
+msgstr "v"
+
+#. Translators: This is used in the repeat toggle for Saturday
+#: src/utils.vala:259
+msgctxt "Alarm|Repeat-On|Saturday"
+msgid "S"
+msgstr "z"
+
+#. Translators: This is used in the repeat toggle for Sunday
+#: src/utils.vala:261
+msgctxt "Alarm|Repeat-On|Sunday"
+msgid "S"
+msgstr "z"
+
+#: src/utils.vala:275
+msgid "Mondays"
+msgstr "maandagen"
+
+#: src/utils.vala:276
+msgid "Tuesdays"
+msgstr "dinsdagen"
+
+#: src/utils.vala:277
+msgid "Wednesdays"
+msgstr "woensdagen"
+
+#: src/utils.vala:278
+msgid "Thursdays"
+msgstr "donderdagen"
+
+#: src/utils.vala:279
+msgid "Fridays"
+msgstr "vrijdagen"
+
+#: src/utils.vala:280
+msgid "Saturdays"
+msgstr "zaterdagen"
+
+#: src/utils.vala:281
+msgid "Sundays"
+msgstr "zondagen"
+
+#: src/utils.vala:407
+msgid "Every Day"
+msgstr "iedere dag"
+
+#: src/utils.vala:409
+msgid "Weekdays"
+msgstr "weekdagen"
+
+#: src/utils.vala:411
+msgid "Weekends"
+msgstr "weekends"
+
+#: src/window.vala:260
+msgid "translator-credits"
+msgstr ""
+"Wouter Bolsterlee\n"
+"Erwin Poeze\n"
+"Nathan Follens <nfollens@gnome.org>\n"
+"Dick Groskamp <digro@yahoo.co.uk>\n"
+"Meer info over GNOME-NL https://nl.gnome.org"
+
+#. Translators: Tooltip for the + button
+#: src/world-face.vala:29
+msgid "Add Location"
+msgstr "Locatie toevoegen"
+
+#. If it is Jan 1st there, and not Jan 2nd here, then it must be
+#. Dec 31st here, so return "tomorrow"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Tomorrow"
+msgstr "Morgen"
+
+#. If it is Jan 1st here, and not Jan 2nd there, then it must be
+#. Dec 31st there, so return "yesterday"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#. Translators: This clock represents the local time
+#: src/world-row.vala:47
+msgid "Current location"
+msgstr "Huidige locatie"
+
+#~ msgid "Add a New World Clock"
+#~ msgstr "Wereldklok toevoegen"
+
+#, c-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s dag"
+#~ msgstr[1] "%s dagen"
+
+#~ msgid " and "
+#~ msgstr " en "
+
+#, c-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s minuut"
+#~ msgstr[1] "%s minuten"
+
+#~ msgid "_Start"
+#~ msgstr "_Starten"
+
+#~ msgid "Lap"
+#~ msgstr "Rondetijd"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Select Duration"
+#~ msgstr "Bepaal de duur"
+
+#, c-format
+#~ msgid "Snoozed from %s: %s"
+#~ msgstr "Uitgesteld van %s: %s"
+
+#~ msgid "Back"
+#~ msgstr "Terug"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Add"
+#~ msgstr "Toevoegen"
+
+#~ msgid "Active"
+#~ msgstr "Actief"
+
+#~ msgid "Alarms"
+#~ msgstr "Wekkers"
+
+#~ msgid "Goals:"
+#~ msgstr "Doelen:"
+
+#~ msgid "Optional"
+#~ msgstr "Optioneel"
+
+#~ msgid "Utilities to help you with the time."
+#~ msgstr "Hulpmiddelen om bij de tijd te blijven."
+
+#~ msgid "GNOME Clocks"
+#~ msgstr "Gnome Klok"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Sneltoetsen"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Add a world clock"
+#~ msgstr "Wereldklok toevoegen"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Stop / Reset"
+#~ msgstr "Stoppen / opnieuw"
+
+#~ msgid "Failed to show help: %s"
+#~ msgstr "Tonen hulptekst over ‘%s’ is mislukt"
+
+#~ msgid "Edit"
+#~ msgstr "Bewerken"
+
+#~ msgid "Select <b>New</b> to add a world clock"
+#~ msgstr "Kies <b>Nieuw</b> om een wereldklok toe te voegen"
+
+#~ msgid "%i second timer"
+#~ msgstr "Timer van %i seconde(n)"
+
+#~ msgid "%i hour timer"
+#~ msgstr "Timer van %i uur"
+
+#~ msgid "%i minute %i second timer"
+#~ msgstr "Timer van %i minu(u)t(en) en %i seconde(n)"
+
+#~ msgid "%i hour %i minute timer"
+#~ msgstr "Timer van %i uur en %i minu(u)t(en)"
+
+#~ msgid "%i hour %i second timer"
+#~ msgstr "Timer van %i uur en %i seconde(n)"
+
+#~ msgid "%i hour %i minute %i second timer"
+#~ msgstr "Timer van %i uur, %i minu(u)t(en) en %i seconde(n)"
+
+#~ msgctxt "Repeat|Thursday"
+#~ msgid "T"
+#~ msgstr "D"
+
+#~ msgctxt "Repeat|Sunday"
+#~ msgid "S"
+#~ msgstr "Z"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Select all world clocks"
+#~ msgstr "Alle wereldklokken selecteren"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Select all alarms"
+#~ msgstr "Alle wekkers selecteren"
+
+#~ msgid "Select All"
+#~ msgstr "Alles selecteren"
+
+#~ msgid "@icon@"
+#~ msgstr "@icon@"
+
+#~ msgid "Configured timer duration in seconds."
+#~ msgstr "Ingestelde timertijdduur in seconden."
+
+#~ msgid "Select <b>New</b> to add an alarm"
+#~ msgstr "Kies <b>Nieuw</b> om een wekker toe te voegen"
+
+#~ msgctxt "Alarm"
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
+#~ msgid "Continue"
+#~ msgstr "Doorgaan"
+
+#~ msgid "Click on items to select them"
+#~ msgstr "Klik op een item om het te selecteren"
+
+#~ msgid "%u selected"
+#~ msgid_plural "%u selected"
+#~ msgstr[0] "%u geselecteerd"
+#~ msgstr[1] "%u geselecteerd"
+
+#~ msgctxt "World clock"
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
+#~ msgid "_About"
+#~ msgstr "_Info"
+
+#~ msgid "_Quit"
+#~ msgstr "_Afsluiten"
+
+#~ msgid "org.gnome.clocks"
+#~ msgstr "org.gnome.clocks"
+
+#~ msgid "_New"
+#~ msgstr "_Nieuw"
+
+#~ msgid "Split"
+#~ msgstr "Tussentijd"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"

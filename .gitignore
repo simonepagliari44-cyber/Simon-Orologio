@@ -1,0 +1,9 @@
+build
+_build
+*~
+.vscode
+.flatpak-builder/
+.flatpak/
+Deb/
+deb/
+*.deb

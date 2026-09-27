@@ -1,0 +1,124 @@
+/* Shared */
+
+.large-button {
+	padding: 6px;
+}
+
+/* alarms */
+
+.alarm-time {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+.clocks-ampm-toggle-button,
+.clocks-secondary-standalone-label {
+	font-size: 18pt;
+}
+
+.clocks-standalone-label,
+.clocks-ringing-label {
+	font-size: 6em;
+	font-weight: 300;
+}
+
+.clocks-standalone-label-small {
+	font-size: 4.0em;
+	font-weight: 300;
+}
+
+.clocks-ringing-title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.clocks-alarm-setup-time {
+	font-size: 32pt;
+}
+
+/* Timer Panel */
+
+.clocks-timer-label {
+	font-size: 48pt;
+}
+
+.clocks-spinbutton {
+	font-size: 42pt;
+}
+
+.clocks-spinbutton > text {
+	padding: 0px 7px;
+}
+
+/* disguise insensitive spinbuttons as normal labels */
+
+.timer-countdown {
+	font-size: 40pt;
+	font-weight: 300;
+}
+
+/* Stopwatch Panel */
+.lap-time {
+	font-weight: bold;
+}
+
+.stopped-stopwatch label,
+.running-stopwatch label,
+.paused-stopwatch label {
+	font-size: 70px;
+	font-weight: lighter;
+}
+
+.stopped-stopwatch .seconds-label,
+.running-stopwatch .seconds-label,
+.paused-stopwatch .seconds-label {
+	font-weight: 300;
+}
+
+.running-stopwatch .seconds-label,
+.running-stopwatch .milliseconds-label {
+	color: @accent_color;
+}
+
+.stopped-stopwatch .milliseconds-label,
+.running-stopwatch .milliseconds-label,
+.paused-stopwatch .milliseconds-label {
+	font-size: 50px;
+}
+
+/* World */
+
+.clock-location {
+	font-weight: bolder;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.clock-time {
+	font-size: 2em;
+	padding: 0.2em 0.5em;
+	border-radius: 1em;
+}
+
+.none .clock-time {
+	background: alpha(currentColor, 0.2);
+}
+
+.night .clock-time {
+	color: @blue_4;
+	background-color: alpha(@blue_3, 0.25);
+}
+
+.naut .clock-time,
+.astro .clock-time {
+	color: @orange_5;
+	background-color: alpha(@orange_4, 0.25);
+}
+
+.civil .clock-time,
+.day .clock-time {
+	color: @yellow_7;
+	background: alpha(@yellow_5, 0.25);
+}

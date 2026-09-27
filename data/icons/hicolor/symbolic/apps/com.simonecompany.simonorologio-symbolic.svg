@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Symbolic icon: monochrome, simplified clock face -->
+  <circle cx="8" cy="8" r="7.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <!-- Hour hand (pointing up-left) -->
+  <line x1="8" y1="8" x2="4.5" y2="3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Minute hand (pointing up) -->
+  <line x1="8" y1="8" x2="8" y2="2.5" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="8" cy="8" r="1" fill="currentColor"/>
+</svg>

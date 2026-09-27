@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">Simon-Orologio</name>
+  <shortdesc xml:lang="en">Keep track of time</shortdesc>
+  <description>
+    A simple and elegant clock application.
+    It includes world clocks, alarms, a stopwatch, and timers.
+  </description>
+  <homepage rdf:resource="https://github.com/simonepagliari44-cyber/Simon-Orologio/" />
+  <bug-database rdf:resource="https://github.com/simonepagliari44-cyber/Simon-Orologio/issues/" />
+
+  <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+  <programming-language>Vala</programming-language>
+  <platform>GTK 4</platform>
+  <platform>Libadwaita</platform>
+
+  <license rdf:resource="https://www.gnu.org/licenses/gpl-3.0.html" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Simone</foaf:name>
+      <foaf:mbox rdf:resource="mailto:simone@simonecompany.com" />
+    </foaf:Person>
+  </maintainer>
+
+</Project>

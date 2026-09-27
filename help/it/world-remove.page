@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="world-remove">
+
+  <info>
+    <link type="guide" xref="index#world-clock"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Eliminare un fuso orario che non ti serve più.</desc>
+  </info>
+
+  <title>Rimuovi un fuso orario</title>
+
+  <p>Puoi eliminare gli orologi che non ti servono più.</p>
+
+  <steps>
+    <item>
+      <p>Premi il pulsante <gui style="button">Fuso orario</gui>.</p>
+    </item>
+    <item>
+      <p>Premi il pulsante <gui style="button">Elimina</gui> per rimuovere un
+      fuso orario.</p>
+    </item>
+  </steps>
+
+</page>

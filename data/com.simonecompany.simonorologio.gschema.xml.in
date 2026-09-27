@@ -1,0 +1,65 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="com.simonecompany.simonorologio" path="/com/simonecompany/simonorologio/">
+    <key name="world-clocks" type="aa{sv}">
+      <default>[]</default>
+      <summary>Configured world clocks</summary>
+      <description>
+        List of world clocks to show.
+      </description>
+    </key>
+    <key name="alarms" type="aa{sv}">
+      <default>[]</default>
+      <summary>Configured alarms</summary>
+      <description>
+        List of alarms set.
+      </description>
+    </key>
+    <key name="timers" type="aa{sv}">
+      <default>[]</default>
+      <summary>Configured Timers</summary>
+      <description>
+      List of timers set.
+      </description>
+    </key>
+    <key name="geolocation" type="b">
+      <default>true</default>
+      <summary>Geolocation support</summary>
+      <description>
+        Turn geolocation support on and off.
+      </description>
+    </key>
+  </schema>
+  <enum id="com.simonecompany.simonorologio.panelid">
+    <value nick="clock" value="0"/>
+    <value nick="world" value="1"/>
+    <value nick="alarm" value="2"/>
+    <value nick="stopwatch" value="3"/>
+    <value nick="timer" value="4"/>
+  </enum>
+  <schema id="com.simonecompany.simonorologio.state" path="/com/simonecompany/simonorologio/state/">
+    <child schema="com.simonecompany.simonorologio.state.window" name="window"/>
+  </schema>
+  <schema id="com.simonecompany.simonorologio.state.window" path="/com/simonecompany/simonorologio/state/window/">
+    <key type="b" name="maximized">
+      <default>false</default>
+      <summary>Window maximized</summary>
+      <description>
+        Whether the window is maximized.
+      </description>
+    </key>
+    <key type="(ii)" name="size">
+      <default>(870, 690)</default>
+      <summary>Window width and height</summary>
+      <description>
+        Width and height of the window.
+      </description>
+    </key>
+    <key enum="com.simonecompany.simonorologio.panelid" name="panel-id">
+      <default>"clock"</default>
+      <summary>Panel state</summary>
+      <description>
+        Current clock panel.
+      </description>
+    </key>
+  </schema>
+</schemalist>

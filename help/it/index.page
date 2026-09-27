@@ -1,0 +1,66 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task 2column"
+      id="index">
+
+  <info>
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <title type="link" role="trail">Simon-Orologio Help</title>
+    <title type="text">Simon-Orologio Help</title>
+    <title type="link">Simon-Orologio Help</title>
+    <title type="link" role="seealso">Simon-Orologio Help</title>
+
+    <desc>Use <app>Simon-Orologio</app> as a stopwatch, a timer, to set alarms and to
+    check the time in different cities around the world.</desc>
+  </info>
+
+  <title><media type="image" its:translate="no" width="48px" height="48px"
+    src="figures/com.simonecompany.simonorologio.svg" /> Simon-Orologio</title>
+
+  <p>Use <app>Simon-Orologio</app> as a stopwatch, a timer, to set alarms and to check
+  the time in different cities.</p>
+
+  <section id="world-clock" style="2column">
+    <title>Orologi internazionali</title>
+
+    <p>Visualizza l'ora in città di tutto il mondo sullo stesso schermo. Puoi
+    anche controllare se in quelle città è ancora lo stesso giorno, e gli orari
+    dell'alba e del tramonto.</p>
+
+  </section>
+
+  <section id="alarm-clock" style="2column">
+    <title>Sveglie</title>
+
+    <p>Imposta sveglie personalizzate per giorni specifici della settimana.</p>
+
+  </section>
+
+  <section id="stopwatch" style="2column">
+    <title>Cronometro</title>
+
+    <p>Usa il cronometro per misurare quanto tempo impiega qualcosa.</p>
+
+  </section>
+
+  <section id="timer" style="2column">
+    <title>Timer</title>
+
+    <p>Imposta un conto alla rovescia in secondi, minuti o ore.</p>
+
+  </section>
+</page>

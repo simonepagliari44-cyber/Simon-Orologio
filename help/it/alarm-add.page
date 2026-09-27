@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="alarm-add">
+
+  <info>
+    <link type="guide" xref="index#alarm-clock"/>
+
+    <revision pkgversion="3.10" date="2013-09-15" status="candidate"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Usare una sveglia per impostare un promemoria.</desc>
+  </info>
+
+  <title>Aggiungi una sveglia</title>
+
+  <p>Puoi aggiungere una sveglia per specifici giorni della settimana. Suonerà
+  indipendentemente dal fatto che <app>Simon-Orologio</app> sia aperto o no.</p>
+
+  <steps>
+    <item>
+      <p>Premi <gui style="button">Sveglie</gui>.</p>
+    </item>
+    <item>
+      <p>Premi <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Imposta l'ora in cui vuoi che suoni la sveglia.</p>
+    </item>
+    <item>
+      <p>Seleziona i giorni in cui la sveglia deve ripetersi alla stessa ora,
+      oppure nessuno se vuoi che suoni una sola volta.</p>
+    </item>
+    <item>
+      <p>Puoi dare un nome alla nuova sveglia per riconoscerla più facilmente.</p>
+    </item>
+    <item>
+      <p>Premi <gui style="button">Aggiungi</gui> per completare l'aggiunta.</p>
+    </item>
+  </steps>
+
+  <p>Puoi <link xref="alarm-edit">disattivare temporaneamente la sveglia</link> se
+  non vuoi usarla per un po' di tempo.</p>
+
+  <p>La sveglia non suonerà se il computer è spento.</p>
+
+</page>

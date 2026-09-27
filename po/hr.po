@@ -1,0 +1,662 @@
+# Croatian translation for gnome-clocks.
+# Copyright (C) 2017 gnome-clocks's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-clocks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-clocks master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-clocks/issues/\n"
+"POT-Creation-Date: 2025-08-10 16:36+0000\n"
+"PO-Revision-Date: 2023-12-23 14:48+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#: data/org.gnome.clocks.desktop.in.in:2 data/org.gnome.clocks.desktop.in.in:3
+#: data/org.gnome.clocks.metainfo.xml.in.in:6 data/ui/window.ui:25
+#: src/main.vala:25 src/window.vala:293 src/window.vala:348
+#: src/world-standalone.vala:24
+msgid "Clocks"
+msgstr "Satovi"
+
+#: data/org.gnome.clocks.desktop.in.in:5
+msgid "Clocks for world times, plus alarms, stopwatch and a timer"
+msgstr ""
+"Satovi za svjetska vremena, uključujući alarme, štopericu i odbrojavanje "
+"vremena"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.clocks.desktop.in.in:7
+msgid "time;timer;alarm;world clock;stopwatch;time zone;"
+msgstr "vrijeme;odbrojavanje;alarm;svjetski sat;štoperica;vremenska zona;"
+
+#: data/org.gnome.clocks.desktop.in.in:17
+msgid "Allows world clocks to be displayed for your time zone."
+msgstr "Dopušta prikaz svjetskih satova u vašoj vremenskoj zoni."
+
+#: data/org.gnome.clocks.gschema.xml.in:5
+msgid "Configured world clocks"
+msgstr "Podešeni svjetski satovi"
+
+#: data/org.gnome.clocks.gschema.xml.in:6
+msgid "List of world clocks to show."
+msgstr "Popis svjetskih satova za prikaz."
+
+#: data/org.gnome.clocks.gschema.xml.in:12
+msgid "Configured alarms"
+msgstr "Podešeni alarmi"
+
+#: data/org.gnome.clocks.gschema.xml.in:13
+msgid "List of alarms set."
+msgstr "Popis postavljenih alarma."
+
+#: data/org.gnome.clocks.gschema.xml.in:19
+msgid "Configured Timers"
+msgstr "Podešena odbrojavanja"
+
+#: data/org.gnome.clocks.gschema.xml.in:20
+msgid "List of timers set."
+msgstr "Popis postavljenih odbrojavanja."
+
+#: data/org.gnome.clocks.gschema.xml.in:26
+msgid "Geolocation support"
+msgstr "Podrška geolokacije"
+
+#: data/org.gnome.clocks.gschema.xml.in:27
+msgid "Turn geolocation support on and off."
+msgstr "Uključi ili isključi podršku geolokacije."
+
+#: data/org.gnome.clocks.gschema.xml.in:44
+msgid "Window maximized"
+msgstr "Prozor uvećan"
+
+#: data/org.gnome.clocks.gschema.xml.in:45
+msgid "Whether the window is maximized."
+msgstr "Treba li prozor uvećati."
+
+#: data/org.gnome.clocks.gschema.xml.in:51
+msgid "Window width and height"
+msgstr "Širina i visina prozora"
+
+#: data/org.gnome.clocks.gschema.xml.in:52
+msgid "Width and height of the window."
+msgstr "Širina i visina prozora."
+
+#: data/org.gnome.clocks.gschema.xml.in:58
+msgid "Panel state"
+msgstr "Stanje panela"
+
+#: data/org.gnome.clocks.gschema.xml.in:59
+msgid "Current clock panel."
+msgstr "Trenutni panel sata."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:7
+msgid "Keep track of time"
+msgstr "Pratite vrijeme"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:9
+msgid ""
+"A simple and elegant clock application. It includes world clocks, alarms, a "
+"stopwatch, and timers."
+msgstr ""
+"Jednostavna i elegantna aplikacija sata. Uključuje alarme, štopericu i "
+"odbrojavanje vremena."
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:14
+msgid "Show the time in different cities around the world"
+msgstr "Prikaz vremena u drugim gradovima diljem svijeta"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:15
+msgid "Set alarms to wake you up"
+msgstr "Postavljanje alarma za buđenje"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:16
+msgid "Measure elapsed time with an accurate stopwatch"
+msgstr "Mjerenje proteklog vremena s preciznom štopericom"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:17
+msgid "Set timers to properly cook your food"
+msgstr ""
+"Postavljanje podsjetnika odbrojavanja kako bi mogli pravilno skuhati svoju "
+"hranu"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:39
+msgid "Initial screen"
+msgstr "Početni zaslon"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:43
+msgid "Alarms screen"
+msgstr "Zaslon alarma"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:47
+msgid "Stopwatch screen"
+msgstr "Zaslon štoperice"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:51
+msgid "Timer screen"
+msgstr "Zaslon odbrojavanja"
+
+#: data/org.gnome.clocks.metainfo.xml.in.in:150 src/window.vala:295
+msgid "The GNOME Project"
+msgstr "GNOME projekt"
+
+#: data/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Općenito"
+
+#: data/gtk/help-overlay.ui:15
+msgctxt "shortcut window"
+msgid "Show Help"
+msgstr "Prikaži priručnik"
+
+#: data/gtk/help-overlay.ui:21
+msgctxt "shortcut window"
+msgid "Open Menu"
+msgstr "Otvori izbornik"
+
+#: data/gtk/help-overlay.ui:27
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Prečaci tipkovnice"
+
+#: data/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Zatvori"
+
+#: data/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Go to the Next Section"
+msgstr "Idi na sljedeći odjeljak"
+
+#: data/gtk/help-overlay.ui:45
+msgctxt "shortcut window"
+msgid "Go to the Previous Section"
+msgstr "Idi na prijašnji odjeljak"
+
+#: data/gtk/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Go to the World Section"
+msgstr "Idi na odjeljak Svijet"
+
+#: data/gtk/help-overlay.ui:57
+msgctxt "shortcut window"
+msgid "Go to the Alarms Section"
+msgstr "Idi na odjeljak Alarmi"
+
+#: data/gtk/help-overlay.ui:63
+msgctxt "shortcut window"
+msgid "Go to the Stopwatch Section"
+msgstr "Idi na odjeljak Štoperica"
+
+#: data/gtk/help-overlay.ui:69
+msgctxt "shortcut window"
+msgid "Go to the Timer Section"
+msgstr "Idi na odjeljak Odbrojavanje"
+
+#: data/gtk/help-overlay.ui:77
+msgctxt "shortcut window"
+msgid "World Clocks"
+msgstr "Svjetski satovi"
+
+#: data/gtk/help-overlay.ui:81
+msgctxt "shortcut window"
+msgid "Add a World Clock"
+msgstr "Dodaj svjetski sat"
+
+#: data/gtk/help-overlay.ui:89
+msgctxt "shortcut window"
+msgid "Alarm"
+msgstr "Alarm"
+
+#: data/gtk/help-overlay.ui:93
+msgctxt "shortcut window"
+msgid "Add an Alarm"
+msgstr "Dodaj alarm"
+
+#: data/gtk/help-overlay.ui:101
+msgctxt "shortcut window"
+msgid "Stopwatch"
+msgstr "Štoperica"
+
+#: data/gtk/help-overlay.ui:105
+msgctxt "shortcut window"
+msgid "Pause All"
+msgstr "Pauziraj sve"
+
+#: data/gtk/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Timer"
+msgstr "Odbrojavanje"
+
+#: data/gtk/help-overlay.ui:117
+msgctxt "shortcut window"
+msgid "Reset"
+msgstr "Poništi"
+
+#: data/gtk/help-overlay.ui:123
+msgctxt "shortcut window"
+msgid "New Timer"
+msgstr "Novo odbrojavanje"
+
+#: data/ui/alarm-day-picker-row.ui:17
+msgid "Repeat"
+msgstr "Ponovi"
+
+#: data/ui/alarm-face.ui:14
+msgid "Add A_larm…"
+msgstr "Dodaj a_larm …"
+
+#: data/ui/alarm-ringing-panel.ui:26 src/alarm-item.vala:128
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: data/ui/alarm-ringing-panel.ui:41 src/alarm-item.vala:129
+msgid "Snooze"
+msgstr "Odgodi"
+
+#: data/ui/alarm-row.ui:47
+msgid "Repeats"
+msgstr "Ponovi"
+
+#: data/ui/alarm-row.ui:71 data/ui/timer-row.ui:152 data/ui/world-row.ui:19
+msgid "Delete"
+msgstr "Obriši"
+
+#. Translators: Tooltip for the + button
+#: data/ui/alarm-setup-dialog.ui:8 src/alarm-face.vala:28
+#: src/alarm-setup-dialog.vala:113
+msgid "New Alarm"
+msgstr "Novi alarm"
+
+#: data/ui/alarm-setup-dialog.ui:27 data/ui/timer-setup-dialog.ui:28
+#: data/ui/world-location-dialog.ui:17
+msgid "_Cancel"
+msgstr "_Odustani"
+
+#: data/ui/alarm-setup-dialog.ui:34 data/ui/timer-setup-dialog.ui:35
+#: data/ui/world-location-dialog.ui:25
+msgid "_Add"
+msgstr "_Dodaj"
+
+#: data/ui/alarm-setup-dialog.ui:125
+msgid "Name"
+msgstr "Naziv"
+
+#: data/ui/alarm-setup-dialog.ui:132
+msgid "Ring Duration"
+msgstr "Trajanje zvona"
+
+#: data/ui/alarm-setup-dialog.ui:138
+msgid "Snooze Duration"
+msgstr "Trajanje odgode"
+
+#: data/ui/alarm-setup-dialog.ui:150
+msgid "You already have an alarm for this time."
+msgstr "Već imate alarm za ovo vrijeme."
+
+#: data/ui/alarm-setup-dialog.ui:157
+msgid "R_emove Alarm"
+msgstr "U_kloni alarm"
+
+#: data/ui/header-bar.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "_Prečaci tipkovnice"
+
+#: data/ui/header-bar.ui:10
+msgid "_Help"
+msgstr "_Priručnik"
+
+#: data/ui/header-bar.ui:14
+msgid "_About Clocks"
+msgstr "_O aplikaciji Satovi"
+
+#: data/ui/header-bar.ui:54
+msgid "Menu"
+msgstr "Izbornik"
+
+#: data/ui/header-bar.ui:57
+msgid "Main Menu"
+msgstr "Glavni izbornik"
+
+#: data/ui/stopwatch-face.ui:100
+msgid "_Start"
+msgstr "_Pokreni"
+
+#: data/ui/stopwatch-face.ui:115 src/stopwatch-face.vala:184
+msgid "Clear"
+msgstr "Obriši"
+
+#: data/ui/stopwatch-laps-row.ui:14
+msgid "Time"
+msgstr "Vrijeme"
+
+#: data/ui/stopwatch-laps-row.ui:25
+msgid "Difference"
+msgstr "Razlika"
+
+#: data/ui/timer-face.ui:21
+msgid "Select Duration"
+msgstr "Odabir trajanja"
+
+#: data/ui/timer-row.ui:32
+msgid "Title…"
+msgstr "Naslov …"
+
+#: data/ui/timer-row.ui:74 src/stopwatch-face.vala:164
+msgid "Pause"
+msgstr "Pauza"
+
+#: data/ui/timer-row.ui:92 src/stopwatch-face.vala:201
+msgid "Start"
+msgstr "Pokreni"
+
+#: data/ui/timer-row.ui:119
+msgid "Reset"
+msgstr "Vrati izvorno"
+
+#. Translators: Tooltip for the + button
+#: data/ui/timer-setup-dialog.ui:6 src/timer-face.vala:39
+msgid "New Timer"
+msgstr "Novo odbrojavanje"
+
+#: data/ui/timer-setup.ui:38
+msgid "1 m"
+msgstr "1 min"
+
+#: data/ui/timer-setup.ui:49
+msgid "2 m"
+msgstr "2 min"
+
+#: data/ui/timer-setup.ui:60
+msgid "3 m"
+msgstr "3 min"
+
+#: data/ui/timer-setup.ui:71
+msgid "5 m"
+msgstr "5 min"
+
+#: data/ui/timer-setup.ui:82
+msgid "30 m"
+msgstr "30 min"
+
+#: data/ui/timer-setup.ui:93
+msgid "15 m"
+msgstr "15 min"
+
+#: data/ui/timer-setup.ui:104
+msgid "45 m"
+msgstr "45 min"
+
+#: data/ui/timer-setup.ui:115
+msgid "1 h"
+msgstr "1 sat"
+
+#: data/ui/timer-setup.ui:147 data/ui/timer-setup.ui:179
+#: data/ui/timer-setup.ui:212
+msgid "0"
+msgstr "0"
+
+#: data/ui/window.ui:42
+msgid "_World"
+msgstr "_Svijet"
+
+#: data/ui/window.ui:53
+msgid "Ala_rms"
+msgstr "Ala_rmi"
+
+#: data/ui/window.ui:64
+msgid "_Stopwatch"
+msgstr "Š_toperica"
+
+#: data/ui/window.ui:75
+msgid "_Timer"
+msgstr "_Odbrojavanje"
+
+#: data/ui/window.ui:96
+msgid "Clock"
+msgstr "Sat"
+
+#: data/ui/window.ui:104
+msgid "Alarm Ringing"
+msgstr "Zvonjava alarma"
+
+#: data/ui/world-face.ui:15
+msgid "_Add World Clock…"
+msgstr "_Dodaj svjetski sat …"
+
+#: data/ui/world-location-dialog.ui:4
+msgid "Add a New World Clock"
+msgstr "Dodaj novi svjetski sat"
+
+#: data/ui/world-location-dialog.ui:53
+msgid "Search for a City"
+msgstr "Potraži grad"
+
+#: data/ui/world-standalone.ui:97
+msgid "Sunrise"
+msgstr "Izlazak sunca"
+
+#: data/ui/world-standalone.ui:109
+msgid "Sunset"
+msgstr "Zalazak sunca"
+
+#. Prior to 3.36 unamed alarms would just be called "Alarm",
+#. pretend alarms called "Alarm" don't have a name (of course
+#. this fails if the language/translation has since changed)
+#: src/alarm-item.vala:125 src/alarm-row.vala:94 src/window.vala:344
+msgid "Alarm"
+msgstr "Alarm"
+
+#. Translators: The alarm for the time %s titled %s has been "snoozed"
+#: src/alarm-row.vala:101
+#, c-format
+msgid "Snoozed from %s: %s"
+msgstr "Odgođeno od %s: %s"
+
+#. Translators: %s is a time
+#: src/alarm-row.vala:104
+#, c-format
+msgid "Snoozed from %s"
+msgstr "Odgođeno od %s"
+
+#: src/alarm-setup-dialog.vala:41
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: src/alarm-setup-dialog.vala:42
+msgid "5 minutes"
+msgstr "5 minuta"
+
+#: src/alarm-setup-dialog.vala:43
+msgid "10 minutes"
+msgstr "10 minuta"
+
+#: src/alarm-setup-dialog.vala:44
+msgid "15 minutes"
+msgstr "15 minuta"
+
+#: src/alarm-setup-dialog.vala:45
+msgid "20 minutes"
+msgstr "20 minuta"
+
+#: src/alarm-setup-dialog.vala:46
+msgid "30 minutes"
+msgstr "30 minuta"
+
+#: src/alarm-setup-dialog.vala:113
+msgid "Edit Alarm"
+msgstr "Uredi alarm"
+
+#: src/alarm-setup-dialog.vala:116
+msgid "_Done"
+msgstr "_Gotovo"
+
+#: src/application.vala:23
+msgid "Print version information and exit"
+msgstr "Ispiši podatke o inačici i izađi"
+
+#: src/stopwatch-face.vala:168 src/stopwatch-face.vala:205
+msgid "Lap"
+msgstr "Krug"
+
+#: src/stopwatch-face.vala:180
+msgid "Resume"
+msgstr "Nastavi"
+
+#: src/stopwatch-laps-row.vala:48
+#, c-format
+msgid "Lap %i"
+msgstr "Krug %i"
+
+#: src/timer-face.vala:76
+msgid "Time is up!"
+msgstr "Vrijeme je isteklo!"
+
+#: src/timer-face.vala:77
+msgid "Timer countdown finished"
+msgstr "Odbrojavanje završeno"
+
+#. Translators: The time is the same as the local time
+#: src/utils.vala:67
+msgid "Current timezone"
+msgstr "Trenutna vremenska zona"
+
+#. Translators: The (possibly fractical) number hours in the past
+#. (relative to local) the clock/location is
+#: src/utils.vala:72
+#, c-format
+msgid "%s hour behind"
+msgid_plural "%s hours behind"
+msgstr[0] "%s sat ranije"
+msgstr[1] "%s sata ranije"
+msgstr[2] "%s sati ranije"
+
+#. Translators: The (possibly fractical) number hours in the
+#. future (relative to local) the clock/location is
+#: src/utils.vala:78
+#, c-format
+msgid "%s hour ahead"
+msgid_plural "%s hours ahead"
+msgstr[0] "%s sat kasnije"
+msgstr[1] "%s sata kasnije"
+msgstr[2] "%s sati kasnije"
+
+#. Translators: This is used in the repeat toggle for Monday
+#: src/utils.vala:239
+msgctxt "Alarm|Repeat-On|Monday"
+msgid "M"
+msgstr "P"
+
+#. Translators: This is used in the repeat toggle for Tuesday
+#: src/utils.vala:241
+msgctxt "Alarm|Repeat-On|Tuesday"
+msgid "T"
+msgstr "U"
+
+#. Translators: This is used in the repeat toggle for Wednesday
+#: src/utils.vala:243
+msgctxt "Alarm|Repeat-On|Wednesday"
+msgid "W"
+msgstr "S"
+
+#. Translators: This is used in the repeat toggle for Thursday
+#: src/utils.vala:245
+msgctxt "Alarm|Repeat-On|Thursday"
+msgid "T"
+msgstr "Č"
+
+#. Translators: This is used in the repeat toggle for Friday
+#: src/utils.vala:247
+msgctxt "Alarm|Repeat-On|Friday"
+msgid "F"
+msgstr "P"
+
+#. Translators: This is used in the repeat toggle for Saturday
+#: src/utils.vala:249
+msgctxt "Alarm|Repeat-On|Saturday"
+msgid "S"
+msgstr "S"
+
+#. Translators: This is used in the repeat toggle for Sunday
+#: src/utils.vala:251
+msgctxt "Alarm|Repeat-On|Sunday"
+msgid "S"
+msgstr "N"
+
+#: src/utils.vala:265
+msgid "Mondays"
+msgstr "Ponedjeljka"
+
+#: src/utils.vala:266
+msgid "Tuesdays"
+msgstr "Utorka"
+
+#: src/utils.vala:267
+msgid "Wednesdays"
+msgstr "Srijede"
+
+#: src/utils.vala:268
+msgid "Thursdays"
+msgstr "Četvrtka"
+
+#: src/utils.vala:269
+msgid "Fridays"
+msgstr "Petka"
+
+#: src/utils.vala:270
+msgid "Saturdays"
+msgstr "Subote"
+
+#: src/utils.vala:271
+msgid "Sundays"
+msgstr "Nedjelje"
+
+#: src/utils.vala:397
+msgid "Every Day"
+msgstr "Svaki dan"
+
+#: src/utils.vala:399
+msgid "Weekdays"
+msgstr "Radnim danima"
+
+#: src/utils.vala:401
+msgid "Weekends"
+msgstr "Vikendima"
+
+#: src/window.vala:301
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  gogo https://launchpad.net/~trebelnik-stefina\n"
+"Milo Ivir <mail@milotype.de>"
+
+#. Translators: Tooltip for the + button
+#: src/world-face.vala:29
+msgid "Add Location"
+msgstr "Dodaj lokaciju"
+
+#. If it is Jan 1st there, and not Jan 2nd here, then it must be
+#. Dec 31st here, so return "tomorrow"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Tomorrow"
+msgstr "Sutra"
+
+#. If it is Jan 1st here, and not Jan 2nd there, then it must be
+#. Dec 31st there, so return "yesterday"
+#: src/world-item.vala:177 src/world-item.vala:181
+msgid "Yesterday"
+msgstr "Jučer"
+
+#. Translators: This clock represents the local time
+#: src/world-row.vala:47
+msgid "Current location"
+msgstr "Trenutna lokacija"

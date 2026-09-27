@@ -1,0 +1,18 @@
+.none .clock-time {
+	background: alpha(currentColor, 0.2);
+}
+
+.night .clock-time {
+	color: @blue_1;
+}
+
+.astro .clock-time,
+.naut .clock-time {
+	color: @orange_1;
+}
+
+.civil .clock-time,
+.day .clock-time {
+	color: @yellow_2;
+	background: alpha(#cd9309, 0.25);
+}
